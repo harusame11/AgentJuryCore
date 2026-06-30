@@ -1,0 +1,185 @@
+text,split,topic,prob,topic_keywords
+Failure to handle edge cases in input data validation.,Algorithm-Generated,-1,0.07887459748644982,input data input output data leading
+Agent relied on simulated data instead of external verification.,Algorithm-Generated,0,0.4609325118752756,agent agent provided provided data
+Agent made unwarranted assumptions about required data.,Algorithm-Generated,0,1.0,agent agent provided provided data
+Propagation of incorrect data from upstream source.,Algorithm-Generated,7,0.21504358434143397,source source incorrect upstream incorrect data
+Code execution error leading to incorrect result.,Algorithm-Generated,1,0.34035283884123735,incorrect result implementation flawed
+Inappropriate tool selection for the query context.,Algorithm-Generated,2,0.24459866749190654,retrieval information retrieval search incomplete
+Assumed resource availability without verification.,Algorithm-Generated,4,0.1985293097587052,missing data source required external
+Library incompatible with required data format.,Algorithm-Generated,4,0.5137731327669135,missing data source required external
+Incorrect assumption of optimal outcome instead of worst-case analysis.,Algorithm-Generated,5,1.0,premature premature conclusion conclusion solution
+Agent generated inaccurate factual data.,Algorithm-Generated,0,0.6130993997474043,agent agent provided provided data
+Agent exhausted interaction limits through repeated incorrect actions.,Algorithm-Generated,0,1.0,agent agent provided provided data
+Reliance on outdated or static internal knowledge over dynamic external verification.,Algorithm-Generated,9,1.0,reliance reliance unverified unverified external verification reliance
+Hallucinated content without source verification.,Algorithm-Generated,3,1.0,failure extraction failure extraction information
+Incorrect initial task decomposition or goal formulation.,Algorithm-Generated,6,1.0,task decomposition task execution irrelevant
+Incomplete state space exploration in search algorithm.,Algorithm-Generated,2,1.0,retrieval information retrieval search incomplete
+Hallucinated input data leading to invalid tool execution.,Algorithm-Generated,-1,0.07963330696566279,input data input output data leading
+Assumed extracted data accuracy without temporal verification.,Algorithm-Generated,3,0.04546536559212484,failure extraction failure extraction information
+Failure to retrieve external information before processing.,Algorithm-Generated,11,1.0,failure executable tool failure retrieve external
+Task objective misalignment with operational instructions.,Algorithm-Generated,6,1.0,task decomposition task execution irrelevant
+Incorrect or flawed solution strategy.,Algorithm-Generated,5,1.0,premature premature conclusion conclusion solution
+Factual inaccuracy in domain knowledge or reference verification.,Algorithm-Generated,-1,0.06745614223550275,input data input output data leading
+Incorrect or irrelevant procedural execution.,Algorithm-Generated,1,0.19451405603644123,incorrect result implementation flawed
+Missing or incorrect external dependency import.,Algorithm-Generated,4,0.10671143343615054,missing data source required external
+Misaligned focus on irrelevant task aspects,Algorithm-Generated,6,0.4771107227902762,task decomposition task execution irrelevant
+Agent incorrectly substitutes placeholders for actual data.,Algorithm-Generated,0,1.0,agent agent provided provided data
+Incorrect temporal or sequential data extraction.,Algorithm-Generated,3,0.045059272737418846,failure extraction failure extraction information
+Inadequate tool selection for required information retrieval.,Algorithm-Generated,2,0.4323055607066085,retrieval information retrieval search incomplete
+Agent dependency failure due to non-functional code.,Algorithm-Generated,0,1.0,agent agent provided provided data
+Incorrect information provided by upstream data source.,Algorithm-Generated,7,1.0,source source incorrect upstream incorrect data
+Incorrect transcription and misinterpretation of ambiguous source data.,Algorithm-Generated,7,1.0,source source incorrect upstream incorrect data
+Failure to verify information against source data.,Algorithm-Generated,3,0.11966963934481972,failure extraction failure extraction information
+Agent provided incorrect or inaccurate data.,Algorithm-Generated,0,1.0,agent agent provided provided data
+Incorrect resource access method used for required information extraction.,Algorithm-Generated,3,1.0,failure extraction failure extraction information
+Incorrect interpretation of notation leading to miscalculation.,Algorithm-Generated,1,0.38476123570950044,incorrect result implementation flawed
+Failure to utilize specified information retrieval protocol.,Algorithm-Generated,2,0.2988329713240406,retrieval information retrieval search incomplete
+Output format misinterpretation,Algorithm-Generated,-1,0.040312194337716496,input data input output data leading
+Agent provided factually incorrect final output.,Algorithm-Generated,0,0.24571327286178166,agent agent provided provided data
+Incorrect entity identification or attribute assignment.,Algorithm-Generated,10,1.0,identification entity incorrect identification reference incorrect
+Reliance on unverified external data without independent source confirmation.,Algorithm-Generated,9,1.0,reliance reliance unverified unverified external verification reliance
+Implementation error in algorithm execution logic.,Algorithm-Generated,1,0.17518076750946146,incorrect result implementation flawed
+Incorrect case assignment for syntactic role in translation.,Algorithm-Generated,1,0.20679311103399667,incorrect result implementation flawed
+Incorrect verification of intermediate result.,Algorithm-Generated,1,1.0,incorrect result implementation flawed
+Failure to invoke necessary external tool.,Algorithm-Generated,11,1.0,failure executable tool failure retrieve external
+Agent provided incorrect or invalid solution,Algorithm-Generated,0,0.34086714419096925,agent agent provided provided data
+Incorrect assumption about required input data.,Algorithm-Generated,-1,0.07774041771479571,input data input output data leading
+Logical inconsistency in handling contradictory truth conditions.,Algorithm-Generated,1,1.0,incorrect result implementation flawed
+Incorrect conversion between numerical representation systems.,Algorithm-Generated,1,1.0,incorrect result implementation flawed
+Incorrect geometric shape assumption.,Algorithm-Generated,1,0.2865866949084894,incorrect result implementation flawed
+Agent role boundary violation causing process termination,Algorithm-Generated,0,1.0,agent agent provided provided data
+Incorrect data schema or column reference.,Algorithm-Generated,10,1.0,identification entity incorrect identification reference incorrect
+Agent provided irrelevant information to query.,Algorithm-Generated,0,0.6466738244957969,agent agent provided provided data
+Incorrect algorithm or formula implementation.,Algorithm-Generated,1,0.21610744446365712,incorrect result implementation flawed
+Verification agent provided erroneous procedural instructions.,Algorithm-Generated,0,0.33693518596185873,agent agent provided provided data
+Incorrect data retrieval or interpretation by an agent.,Algorithm-Generated,0,1.0,agent agent provided provided data
+Failure to parse or extract information from a provided resource.,Algorithm-Generated,3,1.0,failure extraction failure extraction information
+Failure to verify critical external data source.,Algorithm-Generated,3,0.08306207933467868,failure extraction failure extraction information
+Incorrect or flawed algorithmic implementation.,Algorithm-Generated,1,0.18972107195175314,incorrect result implementation flawed
+Incorrect identification of the corrected component.,Algorithm-Generated,10,1.0,identification entity incorrect identification reference incorrect
+Agent exceeded computational resource constraints.,Algorithm-Generated,0,0.5187810773233438,agent agent provided provided data
+Cascading error propagation due to incorrect foundational methodology.,Algorithm-Generated,0,0.44059582739638825,agent agent provided provided data
+Failure to identify and target correct structural elements for data extraction.,Algorithm-Generated,3,0.24149295857383785,failure extraction failure extraction information
+Agent provided incorrect reference data.,Algorithm-Generated,0,0.5751189204611562,agent agent provided provided data
+Agent lacks required perceptual input capability.,Algorithm-Generated,0,1.0,agent agent provided provided data
+Premature solution synthesis without systematic intermediate reasoning,Algorithm-Generated,5,1.0,premature premature conclusion conclusion solution
+Incorrect algorithm or logic for the problem.,Algorithm-Generated,1,0.33831177826929215,incorrect result implementation flawed
+Incorrect identification of primary referenced entity.,Algorithm-Generated,10,0.2357658350878746,identification entity incorrect identification reference incorrect
+Failure to verify information before providing a conclusion.,Algorithm-Generated,0,1.0,agent agent provided provided data
+Incorrect factual substitution within valid result set.,Algorithm-Generated,1,1.0,incorrect result implementation flawed
+Agent provided factually incorrect or nonsensical output.,Algorithm-Generated,0,0.48846118688002943,agent agent provided provided data
+Task domain misidentification,Algorithm-Generated,6,0.3307507524275707,task decomposition task execution irrelevant
+Incorrect or malformed code execution by a dependent agent.,Algorithm-Generated,0,0.5141174985880186,agent agent provided provided data
+Failure to verify temporal correlation between event and metadata annotation.,Algorithm-Generated,3,1.0,failure extraction failure extraction information
+Incorrect abstraction of environmental context.,Algorithm-Generated,-1,0.0680174730716026,input data input output data leading
+Agent executed code with incorrect or non-functional logic.,Algorithm-Generated,0,1.0,agent agent provided provided data
+Inaccurate or fabricated source data provided to downstream agents.,Algorithm-Generated,7,0.21241048739144577,source source incorrect upstream incorrect data
+Agent exceeded computational resource limits due to repeated faulty execution.,Algorithm-Generated,0,0.5268101981732646,agent agent provided provided data
+Failure due to incorrect resource availability assumption.,Algorithm-Generated,4,0.2785772574833936,missing data source required external
+Inappropriate solution approach and excessive incorrect suggestions.,Algorithm-Generated,5,1.0,premature premature conclusion conclusion solution
+Agent provided logically inconsistent or invalid solution.,Algorithm-Generated,0,0.35806283377402737,agent agent provided provided data
+Incorrect problem decomposition or task allocation.,Algorithm-Generated,6,1.0,task decomposition task execution irrelevant
+Agent bypassed analysis and made an unverified assumption.,Algorithm-Generated,0,1.0,agent agent provided provided data
+Incorrect rounding of a numerical result to a specified precision.,Algorithm-Generated,1,1.0,incorrect result implementation flawed
+Failure to locate required external data source.,Algorithm-Generated,4,1.0,missing data source required external
+Premature conclusion without action execution.,Algorithm-Generated,5,1.0,premature premature conclusion conclusion solution
+Misidentification of primary target within a multi-source context.,Algorithm-Generated,7,0.14951053885625737,source source incorrect upstream incorrect data
+Inappropriate tool or method selection for problem context.,Algorithm-Generated,2,0.18875709055137066,retrieval information retrieval search incomplete
+Agent provided factually incorrect information.,Algorithm-Generated,0,0.49369540567761366,agent agent provided provided data
+Agent provided incorrect or inaccurate data.,Algorithm-Generated,0,1.0,agent agent provided provided data
+Incorrect final answer due to premature conclusion.,Algorithm-Generated,5,0.3072478006955038,premature premature conclusion conclusion solution
+Agent bypassed automated data extraction for manual method.,Algorithm-Generated,0,0.39064365767475995,agent agent provided provided data
+Incorrect handling of missing data leading to erroneous data filtering.,Algorithm-Generated,-1,0.06655920063702062,input data input output data leading
+Failure to implement required functionality or provide executable solution.,Algorithm-Generated,11,1.0,failure executable tool failure retrieve external
+Factual inaccuracy in generated information.,Algorithm-Generated,-1,0.07485467970418225,input data input output data leading
+Agent lacks required domain knowledge or data.,Algorithm-Generated,0,1.0,agent agent provided provided data
+Agent misidentified historical sequence of agent outputs.,Algorithm-Generated,0,0.2531186474163143,agent agent provided provided data
+Agent exceeded step limits due to missing prerequisite data imports.,Algorithm-Generated,0,0.5054966957004193,agent agent provided provided data
+Agent provided incorrect or non-functional code.,Algorithm-Generated,0,1.0,agent agent provided provided data
+Simulation logic flaw due to incorrect state transition modeling.,Algorithm-Generated,1,1.0,incorrect result implementation flawed
+Agent used unverified data for critical calculation.,Algorithm-Generated,0,0.4920686646616857,agent agent provided provided data
+Agent provided inaccurate foundational data to downstream processes.,Algorithm-Generated,0,0.4375874985000607,agent agent provided provided data
+Agent provided inaccurate foundational data.,Algorithm-Generated,0,0.5281175574689383,agent agent provided provided data
+Agent provided inaccurate or incomplete information.,Algorithm-Generated,0,1.0,agent agent provided provided data
+Agent execution logic contains programming errors.,Algorithm-Generated,0,0.2892105660527014,agent agent provided provided data
+Incorrect plan generated from flawed user query.,Algorithm-Generated,1,0.10416051100822571,incorrect result implementation flawed
+Failure in cross-agent verification and error detection.,Algorithm-Generated,0,0.2698594579215347,agent agent provided provided data
+Incorrect or unreliable initial information provided.,Algorithm-Generated,-1,0.07166086079940356,input data input output data leading
+Incorrect verification of result relevance.,Algorithm-Generated,1,1.0,incorrect result implementation flawed
+Incomplete information gathering before finalizing analysis.,Algorithm-Generated,5,0.22744449386704707,premature premature conclusion conclusion solution
+Incorrect conversion factor or unit assumption in spatial reasoning.,Algorithm-Generated,1,0.28948413347215474,incorrect result implementation flawed
+Failure to verify critical query constraints during result synthesis.,Algorithm-Generated,2,0.2676393583053816,retrieval information retrieval search incomplete
+Failure to challenge improbable results during verification.,Algorithm-Generated,0,1.0,agent agent provided provided data
+Missing or invalid data source configuration,Algorithm-Generated,4,1.0,missing data source required external
+Agent bypasses required external data verification process.,Algorithm-Generated,0,0.34120850780154854,agent agent provided provided data
+Verification of external expert output failed.,Algorithm-Generated,3,0.08355538088529127,failure extraction failure extraction information
+Insufficient data collection for required cost comparison.,Algorithm-Generated,4,0.30470240591488557,missing data source required external
+Agent misapplied data generation instead of retrieval.,Algorithm-Generated,0,1.0,agent agent provided provided data
+Incorrect plan generation due to erroneous input processing.,Algorithm-Generated,1,1.0,incorrect result implementation flawed
+Missing or inaccessible required data source.,Algorithm-Generated,4,1.0,missing data source required external
+Failure to produce output from code execution.,Algorithm-Generated,-1,0.041098396224795115,input data input output data leading
+Agent action omission leading to information inaccuracy.,Algorithm-Generated,0,1.0,agent agent provided provided data
+Agent provided irrelevant or incorrect code.,Algorithm-Generated,0,0.4471248909454722,agent agent provided provided data
+Agent provided incorrect or invalid code.,Algorithm-Generated,0,0.4551729858766019,agent agent provided provided data
+Agent provided inaccurate foundational data for location-based matching.,Algorithm-Generated,0,0.5671772817899056,agent agent provided provided data
+Missing or incorrect function import.,Algorithm-Generated,4,0.10773823263282019,missing data source required external
+Failure to verify critical information before acting.,Algorithm-Generated,0,1.0,agent agent provided provided data
+Agent provided inaccurate information due to faulty reasoning.,Algorithm-Generated,0,1.0,agent agent provided provided data
+Agent navigation to irrelevant resources causing process disruption.,Hand-Crafted,0,1.0,agent agent provided provided data
+Agent provided unreliable or insufficient information.,Hand-Crafted,0,0.23769127010643917,agent agent provided provided data
+Failure to locate and extract required information from a specified source.,Hand-Crafted,3,0.4838869659814532,failure extraction failure extraction information
+Over-reliance on secondary data instead of primary source verification.,Hand-Crafted,9,1.0,reliance reliance unverified unverified external verification reliance
+Agent failed to retrieve accurate text data from web source.,Hand-Crafted,0,1.0,agent agent provided provided data
+Failure to verify information accuracy against source data.,Hand-Crafted,3,1.0,failure extraction failure extraction information
+Agent skipped required observation or verification steps.,Hand-Crafted,0,0.3517883967373204,agent agent provided provided data
+Agent fails to execute necessary navigation actions.,Hand-Crafted,0,0.18074607947925392,agent agent provided provided data
+Failure to verify prior results before initiating new planning.,Hand-Crafted,0,0.2981896212101155,agent agent provided provided data
+Orchestrator overstepped by making decisions based on incomplete subordinate agent data.,Hand-Crafted,8,1.0,orchestrator subordinate subordinate agent instructions
+Failure to interact with dynamic website elements.,Hand-Crafted,3,0.1354846525513073,failure extraction failure extraction information
+Incorrect data selection from a specified source list.,Hand-Crafted,7,1.0,source source incorrect upstream incorrect data
+Agent failed to execute required navigation action.,Hand-Crafted,0,0.1762623275898685,agent agent provided provided data
+Incorrect or flawed algorithmic implementation.,Hand-Crafted,1,0.3090057345712881,incorrect result implementation flawed
+Reliance on unverified external data sources over primary authoritative sources.,Hand-Crafted,9,1.0,reliance reliance unverified unverified external verification reliance
+Failure to execute iterative exploration or apply available search filters.,Hand-Crafted,2,1.0,retrieval information retrieval search incomplete
+Insufficient search parameters for targeted information retrieval.,Hand-Crafted,2,1.0,retrieval information retrieval search incomplete
+Missing required external data or resource.,Hand-Crafted,4,1.0,missing data source required external
+Premature replanning interrupting sequential action execution.,Hand-Crafted,5,1.0,premature premature conclusion conclusion solution
+Agent failed due to inability to access required information sources.,Hand-Crafted,0,0.32327074987138005,agent agent provided provided data
+Failure to locate required information within a document's structural elements.,Hand-Crafted,3,0.17604091194920868,failure extraction failure extraction information
+Resource access failure due to unavailable external data source.,Hand-Crafted,4,1.0,missing data source required external
+Agent failed to retrieve required external data.,Hand-Crafted,0,1.0,agent agent provided provided data
+Orchestrator misapplied linguistic transformation rules.,Hand-Crafted,8,1.0,orchestrator subordinate subordinate agent instructions
+Incomplete task execution due to missing final step.,Hand-Crafted,6,0.27955865671496877,task decomposition task execution irrelevant
+Information extraction failure leading to incorrect direct output.,Hand-Crafted,3,0.203886735198533,failure extraction failure extraction information
+Incomplete data retrieval and insufficient document analysis progress.,Hand-Crafted,2,0.3066688226438716,retrieval information retrieval search incomplete
+Incorrect or unreliable information retrieval.,Hand-Crafted,2,1.0,retrieval information retrieval search incomplete
+Agent produced no actionable output.,Hand-Crafted,0,0.3743748792874778,agent agent provided provided data
+Incorrect delegation of problem-solving to external resources.,Hand-Crafted,-1,0.06811951228852817,input data input output data leading
+Incomplete list verification before initiating iterative search.,Hand-Crafted,2,1.0,retrieval information retrieval search incomplete
+Incorrect or hallucinated procedural guidance provided.,Hand-Crafted,1,0.19634486503194526,incorrect result implementation flawed
+Agent failed to retrieve or process required information from external source.,Hand-Crafted,0,1.0,agent agent provided provided data
+Insufficient query refinement leading to cascading information retrieval failure.,Hand-Crafted,2,1.0,retrieval information retrieval search incomplete
+OCR extraction failure leading to missed on-page information.,Hand-Crafted,3,0.22737141250235965,failure extraction failure extraction information
+Incomplete data retrieval due to partial page processing.,Hand-Crafted,2,0.3073757231345306,retrieval information retrieval search incomplete
+Missing required external knowledge source.,Hand-Crafted,4,0.11494364010968885,missing data source required external
+Orchestrator failed to specify required validation steps to a subordinate agent.,Hand-Crafted,8,1.0,orchestrator subordinate subordinate agent instructions
+Instruction misinterpretation or ambiguity.,Hand-Crafted,1,1.0,incorrect result implementation flawed
+Agent omitted critical search criteria and prematurely concluded from incomplete data.,Hand-Crafted,0,1.0,agent agent provided provided data
+Agent misinterpreted source data causing cascading failure,Hand-Crafted,0,0.5652938246487238,agent agent provided provided data
+Premature conclusion without sufficient information gathering.,Hand-Crafted,5,0.3523913024785104,premature premature conclusion conclusion solution
+Incorrect execution of a procedural or computational step.,Hand-Crafted,1,1.0,incorrect result implementation flawed
+Insufficient or irrelevant information retrieved for task execution.,Hand-Crafted,6,0.19558317339924566,task decomposition task execution irrelevant
+Orchestrator failure during data processing phase.,Hand-Crafted,8,1.0,orchestrator subordinate subordinate agent instructions
+External data source lacks required information for key parameter.,Hand-Crafted,4,1.0,missing data source required external
+Orchestrator generated incorrect or faulty instructions.,Hand-Crafted,8,0.5498602327451291,orchestrator subordinate subordinate agent instructions
+Insufficient information validation before generating final output.,Hand-Crafted,-1,0.07679364506523684,input data input output data leading
+Incorrect reasoning or flawed logical inference.,Hand-Crafted,1,1.0,incorrect result implementation flawed
+Incorrect or unreliable information retrieval.,Hand-Crafted,2,1.0,retrieval information retrieval search incomplete
+Agent lacks capability to process audio input.,Hand-Crafted,0,1.0,agent agent provided provided data
+Incomplete or outdated information retrieval from search results.,Hand-Crafted,2,0.34569588774690846,retrieval information retrieval search incomplete
+Incorrect calculation due to missing or approximated parameter values.,Hand-Crafted,1,1.0,incorrect result implementation flawed
+Temporal scope mismatch between query and data retrieval.,Hand-Crafted,2,1.0,retrieval information retrieval search incomplete
+Orchestrator issued repetitive navigation commands instead of varied information retrieval instructions.,Hand-Crafted,8,0.546536407268122,orchestrator subordinate subordinate agent instructions
+Insufficient information retrieval leading to speculative reasoning.,Hand-Crafted,2,1.0,retrieval information retrieval search incomplete
+Agent query formulation insufficient for information retrieval within constraints.,Hand-Crafted,0,1.0,agent agent provided provided data
+Information extraction failure from source content.,Hand-Crafted,3,1.0,failure extraction failure extraction information

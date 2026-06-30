@@ -1,0 +1,167 @@
+BERTopic Results: alg_only
+Field: standardized  |  n=126  |  min_cluster_size=3
+Topics found: 8  |  Noise points: 16
+============================================================
+
+[NOISE] (n=16)
+  Split distribution: {'Algorithm-Generated': 16}
+  Samples:
+    - Assumed resource availability without verification.
+    - Assumed extracted data accuracy without temporal verification.
+    - Incorrect temporal or sequential data extraction.
+    - Agent provided factually incorrect final output.
+    - Incorrect assumption about required input data.
+    - Verification agent provided erroneous procedural instructions.
+    - Incorrect data retrieval or interpretation by an agent.
+    - Agent lacks required perceptual input capability.
+    - Failure due to incorrect resource availability assumption.
+    - Incorrect handling of missing data leading to erroneous data filtering.
+    - Failure to implement required functionality or provide executable solution.
+    - Agent lacks required domain knowledge or data.
+    - Agent misidentified historical sequence of agent outputs.
+    - Failure in cross-agent verification and error detection.
+    - Incorrect or unreliable initial information provided.
+    - Agent misapplied data generation instead of retrieval.
+
+Topic 0  (n=59)  Keywords: agent provided data agent provided
+  Split distribution: {'Algorithm-Generated': 59}
+  Samples:
+    - Failure to handle edge cases in input data validation.
+    - Agent relied on simulated data instead of external verification.
+    - Agent made unwarranted assumptions about required data.
+    - Propagation of incorrect data from upstream source.
+    - Agent generated inaccurate factual data.
+    - Agent exhausted interaction limits through repeated incorrect actions.
+    - Reliance on outdated or static internal knowledge over dynamic external verification.
+    - Hallucinated content without source verification.
+    - Hallucinated input data leading to invalid tool execution.
+    - Factual inaccuracy in domain knowledge or reference verification.
+    - Agent incorrectly substitutes placeholders for actual data.
+    - Agent dependency failure due to non-functional code.
+    - Incorrect information provided by upstream data source.
+    - Incorrect transcription and misinterpretation of ambiguous source data.
+    - Failure to verify information against source data.
+    - Agent provided incorrect or inaccurate data.
+    - Incorrect entity identification or attribute assignment.
+    - Reliance on unverified external data without independent source confirmation.
+    - Agent provided incorrect or invalid solution
+    - Logical inconsistency in handling contradictory truth conditions.
+    - Agent role boundary violation causing process termination
+    - Incorrect data schema or column reference.
+    - Agent provided irrelevant information to query.
+    - Incorrect identification of the corrected component.
+    - Agent exceeded computational resource constraints.
+    - Cascading error propagation due to incorrect foundational methodology.
+    - Agent provided incorrect reference data.
+    - Incorrect identification of primary referenced entity.
+    - Failure to verify information before providing a conclusion.
+    - Agent provided factually incorrect or nonsensical output.
+    - Incorrect or malformed code execution by a dependent agent.
+    - Failure to verify temporal correlation between event and metadata annotation.
+    - Agent executed code with incorrect or non-functional logic.
+    - Inaccurate or fabricated source data provided to downstream agents.
+    - Agent exceeded computational resource limits due to repeated faulty execution.
+    - Agent provided logically inconsistent or invalid solution.
+    - Agent bypassed analysis and made an unverified assumption.
+    - Misidentification of primary target within a multi-source context.
+    - Agent provided factually incorrect information.
+    - Agent provided incorrect or inaccurate data.
+    - Agent bypassed automated data extraction for manual method.
+    - Factual inaccuracy in generated information.
+    - Agent exceeded step limits due to missing prerequisite data imports.
+    - Agent provided incorrect or non-functional code.
+    - Agent used unverified data for critical calculation.
+    - Agent provided inaccurate foundational data to downstream processes.
+    - Agent provided inaccurate foundational data.
+    - Agent provided inaccurate or incomplete information.
+    - Agent execution logic contains programming errors.
+    - Incomplete information gathering before finalizing analysis.
+    - Failure to challenge improbable results during verification.
+    - Agent bypasses required external data verification process.
+    - Verification of external expert output failed.
+    - Agent action omission leading to information inaccuracy.
+    - Agent provided irrelevant or incorrect code.
+    - Agent provided incorrect or invalid code.
+    - Agent provided inaccurate foundational data for location-based matching.
+    - Failure to verify critical information before acting.
+    - Agent provided inaccurate information due to faulty reasoning.
+
+Topic 1  (n=14)  Keywords: failure external data source required
+  Split distribution: {'Algorithm-Generated': 14}
+  Samples:
+    - Library incompatible with required data format.
+    - Failure to retrieve external information before processing.
+    - Missing or incorrect external dependency import.
+    - Incorrect resource access method used for required information extraction.
+    - Failure to utilize specified information retrieval protocol.
+    - Failure to invoke necessary external tool.
+    - Failure to parse or extract information from a provided resource.
+    - Failure to verify critical external data source.
+    - Failure to identify and target correct structural elements for data extraction.
+    - Failure to locate required external data source.
+    - Missing or invalid data source configuration
+    - Insufficient data collection for required cost comparison.
+    - Missing or inaccessible required data source.
+    - Missing or incorrect function import.
+
+Topic 2  (n=13)  Keywords: incorrect premature implementation flawed
+  Split distribution: {'Algorithm-Generated': 13}
+  Samples:
+    - Incorrect assumption of optimal outcome instead of worst-case analysis.
+    - Incorrect or flawed solution strategy.
+    - Incorrect or irrelevant procedural execution.
+    - Implementation error in algorithm execution logic.
+    - Incorrect algorithm or formula implementation.
+    - Incorrect or flawed algorithmic implementation.
+    - Premature solution synthesis without systematic intermediate reasoning
+    - Incorrect algorithm or logic for the problem.
+    - Inappropriate solution approach and excessive incorrect suggestions.
+    - Premature conclusion without action execution.
+    - Incorrect final answer due to premature conclusion.
+    - Incorrect plan generated from flawed user query.
+    - Failure to verify critical query constraints during result synthesis.
+
+Topic 3  (n=9)  Keywords: result incorrect result incorrect incorrect verification
+  Split distribution: {'Algorithm-Generated': 9}
+  Samples:
+    - Code execution error leading to incorrect result.
+    - Incorrect interpretation of notation leading to miscalculation.
+    - Output format misinterpretation
+    - Incorrect case assignment for syntactic role in translation.
+    - Incorrect verification of intermediate result.
+    - Incorrect factual substitution within valid result set.
+    - Incorrect rounding of a numerical result to a specified precision.
+    - Incorrect verification of result relevance.
+    - Failure to produce output from code execution.
+
+Topic 4  (n=5)  Keywords: task decomposition allocation irrelevant task
+  Split distribution: {'Algorithm-Generated': 5}
+  Samples:
+    - Incorrect initial task decomposition or goal formulation.
+    - Task objective misalignment with operational instructions.
+    - Misaligned focus on irrelevant task aspects
+    - Task domain misidentification
+    - Incorrect problem decomposition or task allocation.
+
+Topic 5  (n=4)  Keywords: selection context tool inappropriate tool
+  Split distribution: {'Algorithm-Generated': 4}
+  Samples:
+    - Inappropriate tool selection for the query context.
+    - Inadequate tool selection for required information retrieval.
+    - Incorrect abstraction of environmental context.
+    - Inappropriate tool or method selection for problem context.
+
+Topic 6  (n=3)  Keywords: state incorrect state exploration search state space
+  Split distribution: {'Algorithm-Generated': 3}
+  Samples:
+    - Incomplete state space exploration in search algorithm.
+    - Simulation logic flaw due to incorrect state transition modeling.
+    - Incorrect plan generation due to erroneous input processing.
+
+Topic 7  (n=3)  Keywords: incorrect conversion conversion assumption geometric shape
+  Split distribution: {'Algorithm-Generated': 3}
+  Samples:
+    - Incorrect conversion between numerical representation systems.
+    - Incorrect geometric shape assumption.
+    - Incorrect conversion factor or unit assumption in spatial reasoning.
+

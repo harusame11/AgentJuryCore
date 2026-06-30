@@ -1,0 +1,788 @@
+
+============================================================
+K=2 CLUSTERS
+============================================================
+
+--- Cluster 0 (125 samples) ---
+  [Algorithm-Generated] Failure to handle edge cases in input data validation.
+  [Algorithm-Generated] Propagation of incorrect data from upstream source.
+  [Algorithm-Generated] Code execution error leading to incorrect result.
+  [Algorithm-Generated] Inappropriate tool selection for the query context.
+  [Algorithm-Generated] Assumed resource availability without verification.
+  [Algorithm-Generated] Library incompatible with required data format.
+  [Algorithm-Generated] Incorrect assumption of optimal outcome instead of worst-case analysis.
+  [Algorithm-Generated] Reliance on outdated or static internal knowledge over dynamic external verification.
+  [Algorithm-Generated] Hallucinated content without source verification.
+  [Algorithm-Generated] Incorrect initial task decomposition or goal formulation.
+  [Algorithm-Generated] Incomplete state space exploration in search algorithm.
+  [Algorithm-Generated] Hallucinated input data leading to invalid tool execution.
+  [Algorithm-Generated] Assumed extracted data accuracy without temporal verification.
+  [Algorithm-Generated] Failure to retrieve external information before processing.
+  [Algorithm-Generated] Task objective misalignment with operational instructions.
+  [Algorithm-Generated] Incorrect or flawed solution strategy.
+  [Algorithm-Generated] Factual inaccuracy in domain knowledge or reference verification.
+  [Algorithm-Generated] Incorrect or irrelevant procedural execution.
+  [Algorithm-Generated] Missing or incorrect external dependency import.
+  [Algorithm-Generated] Misaligned focus on irrelevant task aspects
+  [Algorithm-Generated] Incorrect temporal or sequential data extraction.
+  [Algorithm-Generated] Inadequate tool selection for required information retrieval.
+  [Algorithm-Generated] Incorrect information provided by upstream data source.
+  [Algorithm-Generated] Incorrect transcription and misinterpretation of ambiguous source data.
+  [Algorithm-Generated] Failure to verify information against source data.
+  [Algorithm-Generated] Incorrect resource access method used for required information extraction.
+  [Algorithm-Generated] Incorrect interpretation of notation leading to miscalculation.
+  [Algorithm-Generated] Failure to utilize specified information retrieval protocol.
+  [Algorithm-Generated] Output format misinterpretation
+  [Algorithm-Generated] Incorrect entity identification or attribute assignment.
+  [Algorithm-Generated] Reliance on unverified external data without independent source confirmation.
+  [Algorithm-Generated] Implementation error in algorithm execution logic.
+  [Algorithm-Generated] Incorrect case assignment for syntactic role in translation.
+  [Algorithm-Generated] Incorrect verification of intermediate result.
+  [Algorithm-Generated] Failure to invoke necessary external tool.
+  [Algorithm-Generated] Incorrect assumption about required input data.
+  [Algorithm-Generated] Logical inconsistency in handling contradictory truth conditions.
+  [Algorithm-Generated] Incorrect conversion between numerical representation systems.
+  [Algorithm-Generated] Incorrect geometric shape assumption.
+  [Algorithm-Generated] Incorrect data schema or column reference.
+  [Algorithm-Generated] Incorrect algorithm or formula implementation.
+  [Algorithm-Generated] Failure to parse or extract information from a provided resource.
+  [Algorithm-Generated] Failure to verify critical external data source.
+  [Algorithm-Generated] Incorrect or flawed algorithmic implementation.
+  [Algorithm-Generated] Incorrect identification of the corrected component.
+  [Algorithm-Generated] Cascading error propagation due to incorrect foundational methodology.
+  [Algorithm-Generated] Failure to identify and target correct structural elements for data extraction.
+  [Algorithm-Generated] Premature solution synthesis without systematic intermediate reasoning
+  [Algorithm-Generated] Incorrect algorithm or logic for the problem.
+  [Algorithm-Generated] Incorrect identification of primary referenced entity.
+  [Algorithm-Generated] Failure to verify information before providing a conclusion.
+  [Algorithm-Generated] Incorrect factual substitution within valid result set.
+  [Algorithm-Generated] Task domain misidentification
+  [Algorithm-Generated] Failure to verify temporal correlation between event and metadata annotation.
+  [Algorithm-Generated] Incorrect abstraction of environmental context.
+  [Algorithm-Generated] Failure due to incorrect resource availability assumption.
+  [Algorithm-Generated] Inappropriate solution approach and excessive incorrect suggestions.
+  [Algorithm-Generated] Incorrect problem decomposition or task allocation.
+  [Algorithm-Generated] Incorrect rounding of a numerical result to a specified precision.
+  [Algorithm-Generated] Failure to locate required external data source.
+  [Algorithm-Generated] Premature conclusion without action execution.
+  [Algorithm-Generated] Misidentification of primary target within a multi-source context.
+  [Algorithm-Generated] Inappropriate tool or method selection for problem context.
+  [Algorithm-Generated] Incorrect final answer due to premature conclusion.
+  [Algorithm-Generated] Incorrect handling of missing data leading to erroneous data filtering.
+  [Algorithm-Generated] Failure to implement required functionality or provide executable solution.
+  [Algorithm-Generated] Factual inaccuracy in generated information.
+  [Algorithm-Generated] Simulation logic flaw due to incorrect state transition modeling.
+  [Algorithm-Generated] Incorrect plan generated from flawed user query.
+  [Algorithm-Generated] Incorrect or unreliable initial information provided.
+  [Algorithm-Generated] Incorrect verification of result relevance.
+  [Algorithm-Generated] Incomplete information gathering before finalizing analysis.
+  [Algorithm-Generated] Incorrect conversion factor or unit assumption in spatial reasoning.
+  [Algorithm-Generated] Failure to verify critical query constraints during result synthesis.
+  [Algorithm-Generated] Failure to challenge improbable results during verification.
+  [Algorithm-Generated] Missing or invalid data source configuration
+  [Algorithm-Generated] Verification of external expert output failed.
+  [Algorithm-Generated] Insufficient data collection for required cost comparison.
+  [Algorithm-Generated] Incorrect plan generation due to erroneous input processing.
+  [Algorithm-Generated] Missing or inaccessible required data source.
+  [Algorithm-Generated] Failure to produce output from code execution.
+  [Algorithm-Generated] Missing or incorrect function import.
+  [Algorithm-Generated] Failure to verify critical information before acting.
+  [Hand-Crafted] Failure to locate and extract required information from a specified source.
+  [Hand-Crafted] Over-reliance on secondary data instead of primary source verification.
+  [Hand-Crafted] Failure to verify information accuracy against source data.
+  [Hand-Crafted] Failure to verify prior results before initiating new planning.
+  [Hand-Crafted] Failure to interact with dynamic website elements.
+  [Hand-Crafted] Incorrect data selection from a specified source list.
+  [Hand-Crafted] Incorrect or flawed algorithmic implementation.
+  [Hand-Crafted] Reliance on unverified external data sources over primary authoritative sources.
+  [Hand-Crafted] Failure to execute iterative exploration or apply available search filters.
+  [Hand-Crafted] Insufficient search parameters for targeted information retrieval.
+  [Hand-Crafted] Missing required external data or resource.
+  [Hand-Crafted] Premature replanning interrupting sequential action execution.
+  [Hand-Crafted] Failure to locate required information within a document's structural elements.
+  [Hand-Crafted] Resource access failure due to unavailable external data source.
+  [Hand-Crafted] Orchestrator misapplied linguistic transformation rules.
+  [Hand-Crafted] Incomplete task execution due to missing final step.
+  [Hand-Crafted] Information extraction failure leading to incorrect direct output.
+  [Hand-Crafted] Incomplete data retrieval and insufficient document analysis progress.
+  [Hand-Crafted] Incorrect or unreliable information retrieval.
+  [Hand-Crafted] Incorrect delegation of problem-solving to external resources.
+  [Hand-Crafted] Incomplete list verification before initiating iterative search.
+  [Hand-Crafted] Incorrect or hallucinated procedural guidance provided.
+  [Hand-Crafted] Insufficient query refinement leading to cascading information retrieval failure.
+  [Hand-Crafted] OCR extraction failure leading to missed on-page information.
+  [Hand-Crafted] Incomplete data retrieval due to partial page processing.
+  [Hand-Crafted] Missing required external knowledge source.
+  [Hand-Crafted] Instruction misinterpretation or ambiguity.
+  [Hand-Crafted] Premature conclusion without sufficient information gathering.
+  [Hand-Crafted] Incorrect execution of a procedural or computational step.
+  [Hand-Crafted] Insufficient or irrelevant information retrieved for task execution.
+  [Hand-Crafted] Orchestrator failure during data processing phase.
+  [Hand-Crafted] External data source lacks required information for key parameter.
+  [Hand-Crafted] Orchestrator generated incorrect or faulty instructions.
+  [Hand-Crafted] Insufficient information validation before generating final output.
+  [Hand-Crafted] Incorrect reasoning or flawed logical inference.
+  [Hand-Crafted] Incorrect or unreliable information retrieval.
+  [Hand-Crafted] Incomplete or outdated information retrieval from search results.
+  [Hand-Crafted] Incorrect calculation due to missing or approximated parameter values.
+  [Hand-Crafted] Temporal scope mismatch between query and data retrieval.
+  [Hand-Crafted] Orchestrator issued repetitive navigation commands instead of varied information retrieval instructions.
+  [Hand-Crafted] Insufficient information retrieval leading to speculative reasoning.
+  [Hand-Crafted] Information extraction failure from source content.
+
+--- Cluster 1 (59 samples) ---
+  [Algorithm-Generated] Agent relied on simulated data instead of external verification.
+  [Algorithm-Generated] Agent made unwarranted assumptions about required data.
+  [Algorithm-Generated] Agent generated inaccurate factual data.
+  [Algorithm-Generated] Agent exhausted interaction limits through repeated incorrect actions.
+  [Algorithm-Generated] Agent incorrectly substitutes placeholders for actual data.
+  [Algorithm-Generated] Agent dependency failure due to non-functional code.
+  [Algorithm-Generated] Agent provided incorrect or inaccurate data.
+  [Algorithm-Generated] Agent provided factually incorrect final output.
+  [Algorithm-Generated] Agent provided incorrect or invalid solution
+  [Algorithm-Generated] Agent role boundary violation causing process termination
+  [Algorithm-Generated] Agent provided irrelevant information to query.
+  [Algorithm-Generated] Verification agent provided erroneous procedural instructions.
+  [Algorithm-Generated] Incorrect data retrieval or interpretation by an agent.
+  [Algorithm-Generated] Agent exceeded computational resource constraints.
+  [Algorithm-Generated] Agent provided incorrect reference data.
+  [Algorithm-Generated] Agent lacks required perceptual input capability.
+  [Algorithm-Generated] Agent provided factually incorrect or nonsensical output.
+  [Algorithm-Generated] Incorrect or malformed code execution by a dependent agent.
+  [Algorithm-Generated] Agent executed code with incorrect or non-functional logic.
+  [Algorithm-Generated] Inaccurate or fabricated source data provided to downstream agents.
+  [Algorithm-Generated] Agent exceeded computational resource limits due to repeated faulty execution.
+  [Algorithm-Generated] Agent provided logically inconsistent or invalid solution.
+  [Algorithm-Generated] Agent bypassed analysis and made an unverified assumption.
+  [Algorithm-Generated] Agent provided factually incorrect information.
+  [Algorithm-Generated] Agent provided incorrect or inaccurate data.
+  [Algorithm-Generated] Agent bypassed automated data extraction for manual method.
+  [Algorithm-Generated] Agent lacks required domain knowledge or data.
+  [Algorithm-Generated] Agent misidentified historical sequence of agent outputs.
+  [Algorithm-Generated] Agent exceeded step limits due to missing prerequisite data imports.
+  [Algorithm-Generated] Agent provided incorrect or non-functional code.
+  [Algorithm-Generated] Agent used unverified data for critical calculation.
+  [Algorithm-Generated] Agent provided inaccurate foundational data to downstream processes.
+  [Algorithm-Generated] Agent provided inaccurate foundational data.
+  [Algorithm-Generated] Agent provided inaccurate or incomplete information.
+  [Algorithm-Generated] Agent execution logic contains programming errors.
+  [Algorithm-Generated] Failure in cross-agent verification and error detection.
+  [Algorithm-Generated] Agent bypasses required external data verification process.
+  [Algorithm-Generated] Agent misapplied data generation instead of retrieval.
+  [Algorithm-Generated] Agent action omission leading to information inaccuracy.
+  [Algorithm-Generated] Agent provided irrelevant or incorrect code.
+  [Algorithm-Generated] Agent provided incorrect or invalid code.
+  [Algorithm-Generated] Agent provided inaccurate foundational data for location-based matching.
+  [Algorithm-Generated] Agent provided inaccurate information due to faulty reasoning.
+  [Hand-Crafted] Agent navigation to irrelevant resources causing process disruption.
+  [Hand-Crafted] Agent provided unreliable or insufficient information.
+  [Hand-Crafted] Agent failed to retrieve accurate text data from web source.
+  [Hand-Crafted] Agent skipped required observation or verification steps.
+  [Hand-Crafted] Agent fails to execute necessary navigation actions.
+  [Hand-Crafted] Orchestrator overstepped by making decisions based on incomplete subordinate agent data.
+  [Hand-Crafted] Agent failed to execute required navigation action.
+  [Hand-Crafted] Agent failed due to inability to access required information sources.
+  [Hand-Crafted] Agent failed to retrieve required external data.
+  [Hand-Crafted] Agent produced no actionable output.
+  [Hand-Crafted] Agent failed to retrieve or process required information from external source.
+  [Hand-Crafted] Orchestrator failed to specify required validation steps to a subordinate agent.
+  [Hand-Crafted] Agent omitted critical search criteria and prematurely concluded from incomplete data.
+  [Hand-Crafted] Agent misinterpreted source data causing cascading failure
+  [Hand-Crafted] Agent lacks capability to process audio input.
+  [Hand-Crafted] Agent query formulation insufficient for information retrieval within constraints.
+
+  [KMeans inertia: 120.36]
+
+============================================================
+K=3 CLUSTERS
+============================================================
+
+--- Cluster 0 (55 samples) ---
+  [Algorithm-Generated] Code execution error leading to incorrect result.
+  [Algorithm-Generated] Incorrect assumption of optimal outcome instead of worst-case analysis.
+  [Algorithm-Generated] Incorrect initial task decomposition or goal formulation.
+  [Algorithm-Generated] Incomplete state space exploration in search algorithm.
+  [Algorithm-Generated] Task objective misalignment with operational instructions.
+  [Algorithm-Generated] Incorrect or flawed solution strategy.
+  [Algorithm-Generated] Incorrect or irrelevant procedural execution.
+  [Algorithm-Generated] Misaligned focus on irrelevant task aspects
+  [Algorithm-Generated] Incorrect interpretation of notation leading to miscalculation.
+  [Algorithm-Generated] Output format misinterpretation
+  [Algorithm-Generated] Incorrect entity identification or attribute assignment.
+  [Algorithm-Generated] Implementation error in algorithm execution logic.
+  [Algorithm-Generated] Incorrect case assignment for syntactic role in translation.
+  [Algorithm-Generated] Incorrect verification of intermediate result.
+  [Algorithm-Generated] Incorrect assumption about required input data.
+  [Algorithm-Generated] Logical inconsistency in handling contradictory truth conditions.
+  [Algorithm-Generated] Incorrect conversion between numerical representation systems.
+  [Algorithm-Generated] Incorrect geometric shape assumption.
+  [Algorithm-Generated] Incorrect algorithm or formula implementation.
+  [Algorithm-Generated] Incorrect or flawed algorithmic implementation.
+  [Algorithm-Generated] Incorrect identification of the corrected component.
+  [Algorithm-Generated] Cascading error propagation due to incorrect foundational methodology.
+  [Algorithm-Generated] Premature solution synthesis without systematic intermediate reasoning
+  [Algorithm-Generated] Incorrect algorithm or logic for the problem.
+  [Algorithm-Generated] Incorrect factual substitution within valid result set.
+  [Algorithm-Generated] Task domain misidentification
+  [Algorithm-Generated] Incorrect abstraction of environmental context.
+  [Algorithm-Generated] Inappropriate solution approach and excessive incorrect suggestions.
+  [Algorithm-Generated] Incorrect problem decomposition or task allocation.
+  [Algorithm-Generated] Incorrect rounding of a numerical result to a specified precision.
+  [Algorithm-Generated] Premature conclusion without action execution.
+  [Algorithm-Generated] Incorrect final answer due to premature conclusion.
+  [Algorithm-Generated] Simulation logic flaw due to incorrect state transition modeling.
+  [Algorithm-Generated] Incorrect plan generated from flawed user query.
+  [Algorithm-Generated] Incorrect or unreliable initial information provided.
+  [Algorithm-Generated] Incorrect verification of result relevance.
+  [Algorithm-Generated] Incorrect conversion factor or unit assumption in spatial reasoning.
+  [Algorithm-Generated] Failure to verify critical query constraints during result synthesis.
+  [Algorithm-Generated] Incorrect plan generation due to erroneous input processing.
+  [Algorithm-Generated] Failure to produce output from code execution.
+  [Algorithm-Generated] Missing or incorrect function import.
+  [Hand-Crafted] Failure to verify prior results before initiating new planning.
+  [Hand-Crafted] Incorrect or flawed algorithmic implementation.
+  [Hand-Crafted] Premature replanning interrupting sequential action execution.
+  [Hand-Crafted] Orchestrator misapplied linguistic transformation rules.
+  [Hand-Crafted] Incomplete task execution due to missing final step.
+  [Hand-Crafted] Incorrect delegation of problem-solving to external resources.
+  [Hand-Crafted] Incorrect or hallucinated procedural guidance provided.
+  [Hand-Crafted] Instruction misinterpretation or ambiguity.
+  [Hand-Crafted] Premature conclusion without sufficient information gathering.
+  [Hand-Crafted] Incorrect execution of a procedural or computational step.
+  [Hand-Crafted] Orchestrator generated incorrect or faulty instructions.
+  [Hand-Crafted] Insufficient information validation before generating final output.
+  [Hand-Crafted] Incorrect reasoning or flawed logical inference.
+  [Hand-Crafted] Incorrect calculation due to missing or approximated parameter values.
+
+--- Cluster 1 (59 samples) ---
+  [Algorithm-Generated] Agent relied on simulated data instead of external verification.
+  [Algorithm-Generated] Agent made unwarranted assumptions about required data.
+  [Algorithm-Generated] Agent generated inaccurate factual data.
+  [Algorithm-Generated] Agent exhausted interaction limits through repeated incorrect actions.
+  [Algorithm-Generated] Agent incorrectly substitutes placeholders for actual data.
+  [Algorithm-Generated] Agent dependency failure due to non-functional code.
+  [Algorithm-Generated] Agent provided incorrect or inaccurate data.
+  [Algorithm-Generated] Agent provided factually incorrect final output.
+  [Algorithm-Generated] Agent provided incorrect or invalid solution
+  [Algorithm-Generated] Agent role boundary violation causing process termination
+  [Algorithm-Generated] Agent provided irrelevant information to query.
+  [Algorithm-Generated] Verification agent provided erroneous procedural instructions.
+  [Algorithm-Generated] Incorrect data retrieval or interpretation by an agent.
+  [Algorithm-Generated] Agent exceeded computational resource constraints.
+  [Algorithm-Generated] Agent provided incorrect reference data.
+  [Algorithm-Generated] Agent lacks required perceptual input capability.
+  [Algorithm-Generated] Agent provided factually incorrect or nonsensical output.
+  [Algorithm-Generated] Incorrect or malformed code execution by a dependent agent.
+  [Algorithm-Generated] Agent executed code with incorrect or non-functional logic.
+  [Algorithm-Generated] Inaccurate or fabricated source data provided to downstream agents.
+  [Algorithm-Generated] Agent exceeded computational resource limits due to repeated faulty execution.
+  [Algorithm-Generated] Agent provided logically inconsistent or invalid solution.
+  [Algorithm-Generated] Agent bypassed analysis and made an unverified assumption.
+  [Algorithm-Generated] Agent provided factually incorrect information.
+  [Algorithm-Generated] Agent provided incorrect or inaccurate data.
+  [Algorithm-Generated] Agent bypassed automated data extraction for manual method.
+  [Algorithm-Generated] Agent lacks required domain knowledge or data.
+  [Algorithm-Generated] Agent misidentified historical sequence of agent outputs.
+  [Algorithm-Generated] Agent exceeded step limits due to missing prerequisite data imports.
+  [Algorithm-Generated] Agent provided incorrect or non-functional code.
+  [Algorithm-Generated] Agent used unverified data for critical calculation.
+  [Algorithm-Generated] Agent provided inaccurate foundational data to downstream processes.
+  [Algorithm-Generated] Agent provided inaccurate foundational data.
+  [Algorithm-Generated] Agent provided inaccurate or incomplete information.
+  [Algorithm-Generated] Agent execution logic contains programming errors.
+  [Algorithm-Generated] Failure in cross-agent verification and error detection.
+  [Algorithm-Generated] Agent bypasses required external data verification process.
+  [Algorithm-Generated] Agent misapplied data generation instead of retrieval.
+  [Algorithm-Generated] Agent action omission leading to information inaccuracy.
+  [Algorithm-Generated] Agent provided irrelevant or incorrect code.
+  [Algorithm-Generated] Agent provided incorrect or invalid code.
+  [Algorithm-Generated] Agent provided inaccurate foundational data for location-based matching.
+  [Algorithm-Generated] Agent provided inaccurate information due to faulty reasoning.
+  [Hand-Crafted] Agent navigation to irrelevant resources causing process disruption.
+  [Hand-Crafted] Agent provided unreliable or insufficient information.
+  [Hand-Crafted] Agent failed to retrieve accurate text data from web source.
+  [Hand-Crafted] Agent skipped required observation or verification steps.
+  [Hand-Crafted] Agent fails to execute necessary navigation actions.
+  [Hand-Crafted] Orchestrator overstepped by making decisions based on incomplete subordinate agent data.
+  [Hand-Crafted] Agent failed to execute required navigation action.
+  [Hand-Crafted] Agent failed due to inability to access required information sources.
+  [Hand-Crafted] Agent failed to retrieve required external data.
+  [Hand-Crafted] Agent produced no actionable output.
+  [Hand-Crafted] Agent failed to retrieve or process required information from external source.
+  [Hand-Crafted] Orchestrator failed to specify required validation steps to a subordinate agent.
+  [Hand-Crafted] Agent omitted critical search criteria and prematurely concluded from incomplete data.
+  [Hand-Crafted] Agent misinterpreted source data causing cascading failure
+  [Hand-Crafted] Agent lacks capability to process audio input.
+  [Hand-Crafted] Agent query formulation insufficient for information retrieval within constraints.
+
+--- Cluster 2 (70 samples) ---
+  [Algorithm-Generated] Failure to handle edge cases in input data validation.
+  [Algorithm-Generated] Propagation of incorrect data from upstream source.
+  [Algorithm-Generated] Inappropriate tool selection for the query context.
+  [Algorithm-Generated] Assumed resource availability without verification.
+  [Algorithm-Generated] Library incompatible with required data format.
+  [Algorithm-Generated] Reliance on outdated or static internal knowledge over dynamic external verification.
+  [Algorithm-Generated] Hallucinated content without source verification.
+  [Algorithm-Generated] Hallucinated input data leading to invalid tool execution.
+  [Algorithm-Generated] Assumed extracted data accuracy without temporal verification.
+  [Algorithm-Generated] Failure to retrieve external information before processing.
+  [Algorithm-Generated] Factual inaccuracy in domain knowledge or reference verification.
+  [Algorithm-Generated] Missing or incorrect external dependency import.
+  [Algorithm-Generated] Incorrect temporal or sequential data extraction.
+  [Algorithm-Generated] Inadequate tool selection for required information retrieval.
+  [Algorithm-Generated] Incorrect information provided by upstream data source.
+  [Algorithm-Generated] Incorrect transcription and misinterpretation of ambiguous source data.
+  [Algorithm-Generated] Failure to verify information against source data.
+  [Algorithm-Generated] Incorrect resource access method used for required information extraction.
+  [Algorithm-Generated] Failure to utilize specified information retrieval protocol.
+  [Algorithm-Generated] Reliance on unverified external data without independent source confirmation.
+  [Algorithm-Generated] Failure to invoke necessary external tool.
+  [Algorithm-Generated] Incorrect data schema or column reference.
+  [Algorithm-Generated] Failure to parse or extract information from a provided resource.
+  [Algorithm-Generated] Failure to verify critical external data source.
+  [Algorithm-Generated] Failure to identify and target correct structural elements for data extraction.
+  [Algorithm-Generated] Incorrect identification of primary referenced entity.
+  [Algorithm-Generated] Failure to verify information before providing a conclusion.
+  [Algorithm-Generated] Failure to verify temporal correlation between event and metadata annotation.
+  [Algorithm-Generated] Failure due to incorrect resource availability assumption.
+  [Algorithm-Generated] Failure to locate required external data source.
+  [Algorithm-Generated] Misidentification of primary target within a multi-source context.
+  [Algorithm-Generated] Inappropriate tool or method selection for problem context.
+  [Algorithm-Generated] Incorrect handling of missing data leading to erroneous data filtering.
+  [Algorithm-Generated] Failure to implement required functionality or provide executable solution.
+  [Algorithm-Generated] Factual inaccuracy in generated information.
+  [Algorithm-Generated] Incomplete information gathering before finalizing analysis.
+  [Algorithm-Generated] Failure to challenge improbable results during verification.
+  [Algorithm-Generated] Missing or invalid data source configuration
+  [Algorithm-Generated] Verification of external expert output failed.
+  [Algorithm-Generated] Insufficient data collection for required cost comparison.
+  [Algorithm-Generated] Missing or inaccessible required data source.
+  [Algorithm-Generated] Failure to verify critical information before acting.
+  [Hand-Crafted] Failure to locate and extract required information from a specified source.
+  [Hand-Crafted] Over-reliance on secondary data instead of primary source verification.
+  [Hand-Crafted] Failure to verify information accuracy against source data.
+  [Hand-Crafted] Failure to interact with dynamic website elements.
+  [Hand-Crafted] Incorrect data selection from a specified source list.
+  [Hand-Crafted] Reliance on unverified external data sources over primary authoritative sources.
+  [Hand-Crafted] Failure to execute iterative exploration or apply available search filters.
+  [Hand-Crafted] Insufficient search parameters for targeted information retrieval.
+  [Hand-Crafted] Missing required external data or resource.
+  [Hand-Crafted] Failure to locate required information within a document's structural elements.
+  [Hand-Crafted] Resource access failure due to unavailable external data source.
+  [Hand-Crafted] Information extraction failure leading to incorrect direct output.
+  [Hand-Crafted] Incomplete data retrieval and insufficient document analysis progress.
+  [Hand-Crafted] Incorrect or unreliable information retrieval.
+  [Hand-Crafted] Incomplete list verification before initiating iterative search.
+  [Hand-Crafted] Insufficient query refinement leading to cascading information retrieval failure.
+  [Hand-Crafted] OCR extraction failure leading to missed on-page information.
+  [Hand-Crafted] Incomplete data retrieval due to partial page processing.
+  [Hand-Crafted] Missing required external knowledge source.
+  [Hand-Crafted] Insufficient or irrelevant information retrieved for task execution.
+  [Hand-Crafted] Orchestrator failure during data processing phase.
+  [Hand-Crafted] External data source lacks required information for key parameter.
+  [Hand-Crafted] Incorrect or unreliable information retrieval.
+  [Hand-Crafted] Incomplete or outdated information retrieval from search results.
+  [Hand-Crafted] Temporal scope mismatch between query and data retrieval.
+  [Hand-Crafted] Orchestrator issued repetitive navigation commands instead of varied information retrieval instructions.
+  [Hand-Crafted] Insufficient information retrieval leading to speculative reasoning.
+  [Hand-Crafted] Information extraction failure from source content.
+
+  [KMeans inertia: 113.30]
+
+============================================================
+K=4 CLUSTERS
+============================================================
+
+--- Cluster 0 (32 samples) ---
+  [Algorithm-Generated] Inappropriate tool selection for the query context.
+  [Algorithm-Generated] Incomplete state space exploration in search algorithm.
+  [Algorithm-Generated] Incorrect temporal or sequential data extraction.
+  [Algorithm-Generated] Inadequate tool selection for required information retrieval.
+  [Algorithm-Generated] Incorrect resource access method used for required information extraction.
+  [Algorithm-Generated] Failure to utilize specified information retrieval protocol.
+  [Algorithm-Generated] Failure to parse or extract information from a provided resource.
+  [Algorithm-Generated] Failure to identify and target correct structural elements for data extraction.
+  [Algorithm-Generated] Inappropriate tool or method selection for problem context.
+  [Algorithm-Generated] Incomplete information gathering before finalizing analysis.
+  [Algorithm-Generated] Failure to verify critical query constraints during result synthesis.
+  [Algorithm-Generated] Insufficient data collection for required cost comparison.
+  [Hand-Crafted] Failure to locate and extract required information from a specified source.
+  [Hand-Crafted] Failure to interact with dynamic website elements.
+  [Hand-Crafted] Failure to execute iterative exploration or apply available search filters.
+  [Hand-Crafted] Insufficient search parameters for targeted information retrieval.
+  [Hand-Crafted] Failure to locate required information within a document's structural elements.
+  [Hand-Crafted] Information extraction failure leading to incorrect direct output.
+  [Hand-Crafted] Incomplete data retrieval and insufficient document analysis progress.
+  [Hand-Crafted] Incorrect or unreliable information retrieval.
+  [Hand-Crafted] Incomplete list verification before initiating iterative search.
+  [Hand-Crafted] Insufficient query refinement leading to cascading information retrieval failure.
+  [Hand-Crafted] OCR extraction failure leading to missed on-page information.
+  [Hand-Crafted] Incomplete data retrieval due to partial page processing.
+  [Hand-Crafted] Insufficient or irrelevant information retrieved for task execution.
+  [Hand-Crafted] Incorrect or unreliable information retrieval.
+  [Hand-Crafted] Incomplete or outdated information retrieval from search results.
+  [Hand-Crafted] Temporal scope mismatch between query and data retrieval.
+  [Hand-Crafted] Orchestrator issued repetitive navigation commands instead of varied information retrieval instructions.
+  [Hand-Crafted] Insufficient information retrieval leading to speculative reasoning.
+  [Hand-Crafted] Agent query formulation insufficient for information retrieval within constraints.
+  [Hand-Crafted] Information extraction failure from source content.
+
+--- Cluster 1 (49 samples) ---
+  [Algorithm-Generated] Failure to handle edge cases in input data validation.
+  [Algorithm-Generated] Propagation of incorrect data from upstream source.
+  [Algorithm-Generated] Assumed resource availability without verification.
+  [Algorithm-Generated] Library incompatible with required data format.
+  [Algorithm-Generated] Reliance on outdated or static internal knowledge over dynamic external verification.
+  [Algorithm-Generated] Hallucinated content without source verification.
+  [Algorithm-Generated] Hallucinated input data leading to invalid tool execution.
+  [Algorithm-Generated] Assumed extracted data accuracy without temporal verification.
+  [Algorithm-Generated] Failure to retrieve external information before processing.
+  [Algorithm-Generated] Factual inaccuracy in domain knowledge or reference verification.
+  [Algorithm-Generated] Missing or incorrect external dependency import.
+  [Algorithm-Generated] Incorrect information provided by upstream data source.
+  [Algorithm-Generated] Incorrect transcription and misinterpretation of ambiguous source data.
+  [Algorithm-Generated] Failure to verify information against source data.
+  [Algorithm-Generated] Incorrect entity identification or attribute assignment.
+  [Algorithm-Generated] Reliance on unverified external data without independent source confirmation.
+  [Algorithm-Generated] Failure to invoke necessary external tool.
+  [Algorithm-Generated] Incorrect assumption about required input data.
+  [Algorithm-Generated] Incorrect data schema or column reference.
+  [Algorithm-Generated] Failure to verify critical external data source.
+  [Algorithm-Generated] Incorrect identification of the corrected component.
+  [Algorithm-Generated] Cascading error propagation due to incorrect foundational methodology.
+  [Algorithm-Generated] Incorrect identification of primary referenced entity.
+  [Algorithm-Generated] Failure to verify information before providing a conclusion.
+  [Algorithm-Generated] Failure to verify temporal correlation between event and metadata annotation.
+  [Algorithm-Generated] Inaccurate or fabricated source data provided to downstream agents.
+  [Algorithm-Generated] Failure due to incorrect resource availability assumption.
+  [Algorithm-Generated] Failure to locate required external data source.
+  [Algorithm-Generated] Misidentification of primary target within a multi-source context.
+  [Algorithm-Generated] Incorrect handling of missing data leading to erroneous data filtering.
+  [Algorithm-Generated] Factual inaccuracy in generated information.
+  [Algorithm-Generated] Incorrect or unreliable initial information provided.
+  [Algorithm-Generated] Failure to challenge improbable results during verification.
+  [Algorithm-Generated] Missing or invalid data source configuration
+  [Algorithm-Generated] Verification of external expert output failed.
+  [Algorithm-Generated] Missing or inaccessible required data source.
+  [Algorithm-Generated] Missing or incorrect function import.
+  [Algorithm-Generated] Failure to verify critical information before acting.
+  [Hand-Crafted] Over-reliance on secondary data instead of primary source verification.
+  [Hand-Crafted] Failure to verify information accuracy against source data.
+  [Hand-Crafted] Failure to verify prior results before initiating new planning.
+  [Hand-Crafted] Incorrect data selection from a specified source list.
+  [Hand-Crafted] Reliance on unverified external data sources over primary authoritative sources.
+  [Hand-Crafted] Missing required external data or resource.
+  [Hand-Crafted] Resource access failure due to unavailable external data source.
+  [Hand-Crafted] Missing required external knowledge source.
+  [Hand-Crafted] Orchestrator failure during data processing phase.
+  [Hand-Crafted] External data source lacks required information for key parameter.
+  [Hand-Crafted] Insufficient information validation before generating final output.
+
+--- Cluster 2 (57 samples) ---
+  [Algorithm-Generated] Agent relied on simulated data instead of external verification.
+  [Algorithm-Generated] Agent made unwarranted assumptions about required data.
+  [Algorithm-Generated] Agent generated inaccurate factual data.
+  [Algorithm-Generated] Agent exhausted interaction limits through repeated incorrect actions.
+  [Algorithm-Generated] Agent incorrectly substitutes placeholders for actual data.
+  [Algorithm-Generated] Agent dependency failure due to non-functional code.
+  [Algorithm-Generated] Agent provided incorrect or inaccurate data.
+  [Algorithm-Generated] Agent provided factually incorrect final output.
+  [Algorithm-Generated] Agent provided incorrect or invalid solution
+  [Algorithm-Generated] Agent role boundary violation causing process termination
+  [Algorithm-Generated] Agent provided irrelevant information to query.
+  [Algorithm-Generated] Verification agent provided erroneous procedural instructions.
+  [Algorithm-Generated] Incorrect data retrieval or interpretation by an agent.
+  [Algorithm-Generated] Agent exceeded computational resource constraints.
+  [Algorithm-Generated] Agent provided incorrect reference data.
+  [Algorithm-Generated] Agent lacks required perceptual input capability.
+  [Algorithm-Generated] Agent provided factually incorrect or nonsensical output.
+  [Algorithm-Generated] Incorrect or malformed code execution by a dependent agent.
+  [Algorithm-Generated] Agent executed code with incorrect or non-functional logic.
+  [Algorithm-Generated] Agent exceeded computational resource limits due to repeated faulty execution.
+  [Algorithm-Generated] Agent provided logically inconsistent or invalid solution.
+  [Algorithm-Generated] Agent bypassed analysis and made an unverified assumption.
+  [Algorithm-Generated] Agent provided factually incorrect information.
+  [Algorithm-Generated] Agent provided incorrect or inaccurate data.
+  [Algorithm-Generated] Agent bypassed automated data extraction for manual method.
+  [Algorithm-Generated] Agent lacks required domain knowledge or data.
+  [Algorithm-Generated] Agent misidentified historical sequence of agent outputs.
+  [Algorithm-Generated] Agent exceeded step limits due to missing prerequisite data imports.
+  [Algorithm-Generated] Agent provided incorrect or non-functional code.
+  [Algorithm-Generated] Agent used unverified data for critical calculation.
+  [Algorithm-Generated] Agent provided inaccurate foundational data to downstream processes.
+  [Algorithm-Generated] Agent provided inaccurate foundational data.
+  [Algorithm-Generated] Agent provided inaccurate or incomplete information.
+  [Algorithm-Generated] Agent execution logic contains programming errors.
+  [Algorithm-Generated] Failure in cross-agent verification and error detection.
+  [Algorithm-Generated] Agent bypasses required external data verification process.
+  [Algorithm-Generated] Agent misapplied data generation instead of retrieval.
+  [Algorithm-Generated] Agent action omission leading to information inaccuracy.
+  [Algorithm-Generated] Agent provided irrelevant or incorrect code.
+  [Algorithm-Generated] Agent provided incorrect or invalid code.
+  [Algorithm-Generated] Agent provided inaccurate foundational data for location-based matching.
+  [Algorithm-Generated] Agent provided inaccurate information due to faulty reasoning.
+  [Hand-Crafted] Agent navigation to irrelevant resources causing process disruption.
+  [Hand-Crafted] Agent provided unreliable or insufficient information.
+  [Hand-Crafted] Agent failed to retrieve accurate text data from web source.
+  [Hand-Crafted] Agent skipped required observation or verification steps.
+  [Hand-Crafted] Agent fails to execute necessary navigation actions.
+  [Hand-Crafted] Orchestrator overstepped by making decisions based on incomplete subordinate agent data.
+  [Hand-Crafted] Agent failed to execute required navigation action.
+  [Hand-Crafted] Agent failed due to inability to access required information sources.
+  [Hand-Crafted] Agent failed to retrieve required external data.
+  [Hand-Crafted] Agent produced no actionable output.
+  [Hand-Crafted] Agent failed to retrieve or process required information from external source.
+  [Hand-Crafted] Orchestrator failed to specify required validation steps to a subordinate agent.
+  [Hand-Crafted] Agent omitted critical search criteria and prematurely concluded from incomplete data.
+  [Hand-Crafted] Agent misinterpreted source data causing cascading failure
+  [Hand-Crafted] Agent lacks capability to process audio input.
+
+--- Cluster 3 (46 samples) ---
+  [Algorithm-Generated] Code execution error leading to incorrect result.
+  [Algorithm-Generated] Incorrect assumption of optimal outcome instead of worst-case analysis.
+  [Algorithm-Generated] Incorrect initial task decomposition or goal formulation.
+  [Algorithm-Generated] Task objective misalignment with operational instructions.
+  [Algorithm-Generated] Incorrect or flawed solution strategy.
+  [Algorithm-Generated] Incorrect or irrelevant procedural execution.
+  [Algorithm-Generated] Misaligned focus on irrelevant task aspects
+  [Algorithm-Generated] Incorrect interpretation of notation leading to miscalculation.
+  [Algorithm-Generated] Output format misinterpretation
+  [Algorithm-Generated] Implementation error in algorithm execution logic.
+  [Algorithm-Generated] Incorrect case assignment for syntactic role in translation.
+  [Algorithm-Generated] Incorrect verification of intermediate result.
+  [Algorithm-Generated] Logical inconsistency in handling contradictory truth conditions.
+  [Algorithm-Generated] Incorrect conversion between numerical representation systems.
+  [Algorithm-Generated] Incorrect geometric shape assumption.
+  [Algorithm-Generated] Incorrect algorithm or formula implementation.
+  [Algorithm-Generated] Incorrect or flawed algorithmic implementation.
+  [Algorithm-Generated] Premature solution synthesis without systematic intermediate reasoning
+  [Algorithm-Generated] Incorrect algorithm or logic for the problem.
+  [Algorithm-Generated] Incorrect factual substitution within valid result set.
+  [Algorithm-Generated] Task domain misidentification
+  [Algorithm-Generated] Incorrect abstraction of environmental context.
+  [Algorithm-Generated] Inappropriate solution approach and excessive incorrect suggestions.
+  [Algorithm-Generated] Incorrect problem decomposition or task allocation.
+  [Algorithm-Generated] Incorrect rounding of a numerical result to a specified precision.
+  [Algorithm-Generated] Premature conclusion without action execution.
+  [Algorithm-Generated] Incorrect final answer due to premature conclusion.
+  [Algorithm-Generated] Failure to implement required functionality or provide executable solution.
+  [Algorithm-Generated] Simulation logic flaw due to incorrect state transition modeling.
+  [Algorithm-Generated] Incorrect plan generated from flawed user query.
+  [Algorithm-Generated] Incorrect verification of result relevance.
+  [Algorithm-Generated] Incorrect conversion factor or unit assumption in spatial reasoning.
+  [Algorithm-Generated] Incorrect plan generation due to erroneous input processing.
+  [Algorithm-Generated] Failure to produce output from code execution.
+  [Hand-Crafted] Incorrect or flawed algorithmic implementation.
+  [Hand-Crafted] Premature replanning interrupting sequential action execution.
+  [Hand-Crafted] Orchestrator misapplied linguistic transformation rules.
+  [Hand-Crafted] Incomplete task execution due to missing final step.
+  [Hand-Crafted] Incorrect delegation of problem-solving to external resources.
+  [Hand-Crafted] Incorrect or hallucinated procedural guidance provided.
+  [Hand-Crafted] Instruction misinterpretation or ambiguity.
+  [Hand-Crafted] Premature conclusion without sufficient information gathering.
+  [Hand-Crafted] Incorrect execution of a procedural or computational step.
+  [Hand-Crafted] Orchestrator generated incorrect or faulty instructions.
+  [Hand-Crafted] Incorrect reasoning or flawed logical inference.
+  [Hand-Crafted] Incorrect calculation due to missing or approximated parameter values.
+
+  [KMeans inertia: 109.39]
+
+============================================================
+K=5 CLUSTERS
+============================================================
+
+--- Cluster 0 (44 samples) ---
+  [Algorithm-Generated] Failure to handle edge cases in input data validation.
+  [Algorithm-Generated] Propagation of incorrect data from upstream source.
+  [Algorithm-Generated] Reliance on outdated or static internal knowledge over dynamic external verification.
+  [Algorithm-Generated] Hallucinated content without source verification.
+  [Algorithm-Generated] Hallucinated input data leading to invalid tool execution.
+  [Algorithm-Generated] Assumed extracted data accuracy without temporal verification.
+  [Algorithm-Generated] Factual inaccuracy in domain knowledge or reference verification.
+  [Algorithm-Generated] Incorrect temporal or sequential data extraction.
+  [Algorithm-Generated] Incorrect information provided by upstream data source.
+  [Algorithm-Generated] Incorrect transcription and misinterpretation of ambiguous source data.
+  [Algorithm-Generated] Failure to verify information against source data.
+  [Algorithm-Generated] Incorrect resource access method used for required information extraction.
+  [Algorithm-Generated] Incorrect entity identification or attribute assignment.
+  [Algorithm-Generated] Reliance on unverified external data without independent source confirmation.
+  [Algorithm-Generated] Incorrect assumption about required input data.
+  [Algorithm-Generated] Logical inconsistency in handling contradictory truth conditions.
+  [Algorithm-Generated] Incorrect data schema or column reference.
+  [Algorithm-Generated] Incorrect identification of the corrected component.
+  [Algorithm-Generated] Cascading error propagation due to incorrect foundational methodology.
+  [Algorithm-Generated] Failure to identify and target correct structural elements for data extraction.
+  [Algorithm-Generated] Incorrect identification of primary referenced entity.
+  [Algorithm-Generated] Failure to verify information before providing a conclusion.
+  [Algorithm-Generated] Failure to verify temporal correlation between event and metadata annotation.
+  [Algorithm-Generated] Inaccurate or fabricated source data provided to downstream agents.
+  [Algorithm-Generated] Misidentification of primary target within a multi-source context.
+  [Algorithm-Generated] Incorrect handling of missing data leading to erroneous data filtering.
+  [Algorithm-Generated] Factual inaccuracy in generated information.
+  [Algorithm-Generated] Incorrect or unreliable initial information provided.
+  [Algorithm-Generated] Incomplete information gathering before finalizing analysis.
+  [Algorithm-Generated] Failure to challenge improbable results during verification.
+  [Algorithm-Generated] Failure to verify critical information before acting.
+  [Hand-Crafted] Over-reliance on secondary data instead of primary source verification.
+  [Hand-Crafted] Failure to verify information accuracy against source data.
+  [Hand-Crafted] Failure to verify prior results before initiating new planning.
+  [Hand-Crafted] Incorrect data selection from a specified source list.
+  [Hand-Crafted] Reliance on unverified external data sources over primary authoritative sources.
+  [Hand-Crafted] Failure to locate required information within a document's structural elements.
+  [Hand-Crafted] Information extraction failure leading to incorrect direct output.
+  [Hand-Crafted] Incorrect or unreliable information retrieval.
+  [Hand-Crafted] OCR extraction failure leading to missed on-page information.
+  [Hand-Crafted] Premature conclusion without sufficient information gathering.
+  [Hand-Crafted] Insufficient information validation before generating final output.
+  [Hand-Crafted] Incorrect or unreliable information retrieval.
+  [Hand-Crafted] Information extraction failure from source content.
+
+--- Cluster 1 (18 samples) ---
+  [Algorithm-Generated] Inappropriate tool selection for the query context.
+  [Algorithm-Generated] Incomplete state space exploration in search algorithm.
+  [Algorithm-Generated] Inadequate tool selection for required information retrieval.
+  [Algorithm-Generated] Failure to utilize specified information retrieval protocol.
+  [Algorithm-Generated] Inappropriate tool or method selection for problem context.
+  [Algorithm-Generated] Failure to verify critical query constraints during result synthesis.
+  [Hand-Crafted] Failure to execute iterative exploration or apply available search filters.
+  [Hand-Crafted] Insufficient search parameters for targeted information retrieval.
+  [Hand-Crafted] Incomplete data retrieval and insufficient document analysis progress.
+  [Hand-Crafted] Incomplete list verification before initiating iterative search.
+  [Hand-Crafted] Insufficient query refinement leading to cascading information retrieval failure.
+  [Hand-Crafted] Incomplete data retrieval due to partial page processing.
+  [Hand-Crafted] Insufficient or irrelevant information retrieved for task execution.
+  [Hand-Crafted] Incomplete or outdated information retrieval from search results.
+  [Hand-Crafted] Temporal scope mismatch between query and data retrieval.
+  [Hand-Crafted] Orchestrator issued repetitive navigation commands instead of varied information retrieval instructions.
+  [Hand-Crafted] Insufficient information retrieval leading to speculative reasoning.
+  [Hand-Crafted] Agent query formulation insufficient for information retrieval within constraints.
+
+--- Cluster 2 (55 samples) ---
+  [Algorithm-Generated] Agent relied on simulated data instead of external verification.
+  [Algorithm-Generated] Agent made unwarranted assumptions about required data.
+  [Algorithm-Generated] Agent generated inaccurate factual data.
+  [Algorithm-Generated] Agent exhausted interaction limits through repeated incorrect actions.
+  [Algorithm-Generated] Agent incorrectly substitutes placeholders for actual data.
+  [Algorithm-Generated] Agent dependency failure due to non-functional code.
+  [Algorithm-Generated] Agent provided incorrect or inaccurate data.
+  [Algorithm-Generated] Agent provided factually incorrect final output.
+  [Algorithm-Generated] Agent provided incorrect or invalid solution
+  [Algorithm-Generated] Agent role boundary violation causing process termination
+  [Algorithm-Generated] Agent provided irrelevant information to query.
+  [Algorithm-Generated] Verification agent provided erroneous procedural instructions.
+  [Algorithm-Generated] Incorrect data retrieval or interpretation by an agent.
+  [Algorithm-Generated] Agent exceeded computational resource constraints.
+  [Algorithm-Generated] Agent provided incorrect reference data.
+  [Algorithm-Generated] Agent lacks required perceptual input capability.
+  [Algorithm-Generated] Agent provided factually incorrect or nonsensical output.
+  [Algorithm-Generated] Incorrect or malformed code execution by a dependent agent.
+  [Algorithm-Generated] Agent executed code with incorrect or non-functional logic.
+  [Algorithm-Generated] Agent exceeded computational resource limits due to repeated faulty execution.
+  [Algorithm-Generated] Agent provided logically inconsistent or invalid solution.
+  [Algorithm-Generated] Agent bypassed analysis and made an unverified assumption.
+  [Algorithm-Generated] Agent provided factually incorrect information.
+  [Algorithm-Generated] Agent provided incorrect or inaccurate data.
+  [Algorithm-Generated] Agent bypassed automated data extraction for manual method.
+  [Algorithm-Generated] Agent lacks required domain knowledge or data.
+  [Algorithm-Generated] Agent misidentified historical sequence of agent outputs.
+  [Algorithm-Generated] Agent exceeded step limits due to missing prerequisite data imports.
+  [Algorithm-Generated] Agent provided incorrect or non-functional code.
+  [Algorithm-Generated] Agent used unverified data for critical calculation.
+  [Algorithm-Generated] Agent provided inaccurate foundational data to downstream processes.
+  [Algorithm-Generated] Agent provided inaccurate foundational data.
+  [Algorithm-Generated] Agent provided inaccurate or incomplete information.
+  [Algorithm-Generated] Agent execution logic contains programming errors.
+  [Algorithm-Generated] Failure in cross-agent verification and error detection.
+  [Algorithm-Generated] Agent bypasses required external data verification process.
+  [Algorithm-Generated] Agent misapplied data generation instead of retrieval.
+  [Algorithm-Generated] Agent action omission leading to information inaccuracy.
+  [Algorithm-Generated] Agent provided irrelevant or incorrect code.
+  [Algorithm-Generated] Agent provided incorrect or invalid code.
+  [Algorithm-Generated] Agent provided inaccurate foundational data for location-based matching.
+  [Algorithm-Generated] Agent provided inaccurate information due to faulty reasoning.
+  [Hand-Crafted] Agent navigation to irrelevant resources causing process disruption.
+  [Hand-Crafted] Agent provided unreliable or insufficient information.
+  [Hand-Crafted] Agent failed to retrieve accurate text data from web source.
+  [Hand-Crafted] Agent skipped required observation or verification steps.
+  [Hand-Crafted] Agent fails to execute necessary navigation actions.
+  [Hand-Crafted] Orchestrator overstepped by making decisions based on incomplete subordinate agent data.
+  [Hand-Crafted] Agent failed to execute required navigation action.
+  [Hand-Crafted] Agent failed due to inability to access required information sources.
+  [Hand-Crafted] Agent produced no actionable output.
+  [Hand-Crafted] Orchestrator failed to specify required validation steps to a subordinate agent.
+  [Hand-Crafted] Agent omitted critical search criteria and prematurely concluded from incomplete data.
+  [Hand-Crafted] Agent misinterpreted source data causing cascading failure
+  [Hand-Crafted] Agent lacks capability to process audio input.
+
+--- Cluster 3 (42 samples) ---
+  [Algorithm-Generated] Code execution error leading to incorrect result.
+  [Algorithm-Generated] Incorrect assumption of optimal outcome instead of worst-case analysis.
+  [Algorithm-Generated] Incorrect initial task decomposition or goal formulation.
+  [Algorithm-Generated] Task objective misalignment with operational instructions.
+  [Algorithm-Generated] Incorrect or flawed solution strategy.
+  [Algorithm-Generated] Incorrect or irrelevant procedural execution.
+  [Algorithm-Generated] Misaligned focus on irrelevant task aspects
+  [Algorithm-Generated] Incorrect interpretation of notation leading to miscalculation.
+  [Algorithm-Generated] Output format misinterpretation
+  [Algorithm-Generated] Implementation error in algorithm execution logic.
+  [Algorithm-Generated] Incorrect case assignment for syntactic role in translation.
+  [Algorithm-Generated] Incorrect verification of intermediate result.
+  [Algorithm-Generated] Incorrect conversion between numerical representation systems.
+  [Algorithm-Generated] Incorrect geometric shape assumption.
+  [Algorithm-Generated] Incorrect algorithm or formula implementation.
+  [Algorithm-Generated] Incorrect or flawed algorithmic implementation.
+  [Algorithm-Generated] Premature solution synthesis without systematic intermediate reasoning
+  [Algorithm-Generated] Incorrect algorithm or logic for the problem.
+  [Algorithm-Generated] Incorrect factual substitution within valid result set.
+  [Algorithm-Generated] Task domain misidentification
+  [Algorithm-Generated] Incorrect abstraction of environmental context.
+  [Algorithm-Generated] Inappropriate solution approach and excessive incorrect suggestions.
+  [Algorithm-Generated] Incorrect problem decomposition or task allocation.
+  [Algorithm-Generated] Incorrect rounding of a numerical result to a specified precision.
+  [Algorithm-Generated] Premature conclusion without action execution.
+  [Algorithm-Generated] Incorrect final answer due to premature conclusion.
+  [Algorithm-Generated] Simulation logic flaw due to incorrect state transition modeling.
+  [Algorithm-Generated] Incorrect plan generated from flawed user query.
+  [Algorithm-Generated] Incorrect verification of result relevance.
+  [Algorithm-Generated] Incorrect conversion factor or unit assumption in spatial reasoning.
+  [Algorithm-Generated] Incorrect plan generation due to erroneous input processing.
+  [Algorithm-Generated] Failure to produce output from code execution.
+  [Hand-Crafted] Incorrect or flawed algorithmic implementation.
+  [Hand-Crafted] Premature replanning interrupting sequential action execution.
+  [Hand-Crafted] Orchestrator misapplied linguistic transformation rules.
+  [Hand-Crafted] Incomplete task execution due to missing final step.
+  [Hand-Crafted] Incorrect or hallucinated procedural guidance provided.
+  [Hand-Crafted] Instruction misinterpretation or ambiguity.
+  [Hand-Crafted] Incorrect execution of a procedural or computational step.
+  [Hand-Crafted] Orchestrator generated incorrect or faulty instructions.
+  [Hand-Crafted] Incorrect reasoning or flawed logical inference.
+  [Hand-Crafted] Incorrect calculation due to missing or approximated parameter values.
+
+--- Cluster 4 (25 samples) ---
+  [Algorithm-Generated] Assumed resource availability without verification.
+  [Algorithm-Generated] Library incompatible with required data format.
+  [Algorithm-Generated] Failure to retrieve external information before processing.
+  [Algorithm-Generated] Missing or incorrect external dependency import.
+  [Algorithm-Generated] Failure to invoke necessary external tool.
+  [Algorithm-Generated] Failure to parse or extract information from a provided resource.
+  [Algorithm-Generated] Failure to verify critical external data source.
+  [Algorithm-Generated] Failure due to incorrect resource availability assumption.
+  [Algorithm-Generated] Failure to locate required external data source.
+  [Algorithm-Generated] Failure to implement required functionality or provide executable solution.
+  [Algorithm-Generated] Missing or invalid data source configuration
+  [Algorithm-Generated] Verification of external expert output failed.
+  [Algorithm-Generated] Insufficient data collection for required cost comparison.
+  [Algorithm-Generated] Missing or inaccessible required data source.
+  [Algorithm-Generated] Missing or incorrect function import.
+  [Hand-Crafted] Failure to locate and extract required information from a specified source.
+  [Hand-Crafted] Failure to interact with dynamic website elements.
+  [Hand-Crafted] Missing required external data or resource.
+  [Hand-Crafted] Resource access failure due to unavailable external data source.
+  [Hand-Crafted] Agent failed to retrieve required external data.
+  [Hand-Crafted] Incorrect delegation of problem-solving to external resources.
+  [Hand-Crafted] Agent failed to retrieve or process required information from external source.
+  [Hand-Crafted] Missing required external knowledge source.
+  [Hand-Crafted] Orchestrator failure during data processing phase.
+  [Hand-Crafted] External data source lacks required information for key parameter.
+
+  [KMeans inertia: 105.70]

@@ -1,0 +1,119 @@
+BERTopic Results: hc_only
+Field: standardized  |  n=58  |  min_cluster_size=2
+Topics found: 13  |  Noise points: 5
+============================================================
+
+[NOISE] (n=5)
+  Split distribution: {'Hand-Crafted': 5}
+  Samples:
+    - Failure to verify information accuracy against source data.
+    - Agent skipped required observation or verification steps.
+    - Failure to interact with dynamic website elements.
+    - Insufficient information validation before generating final output.
+    - Incorrect reasoning or flawed logical inference.
+
+Topic 0  (n=9)  Keywords: retrieval information retrieval insufficient query
+  Split distribution: {'Hand-Crafted': 9}
+  Samples:
+    - Failure to execute iterative exploration or apply available search filters.
+    - Insufficient search parameters for targeted information retrieval.
+    - Incomplete data retrieval and insufficient document analysis progress.
+    - Insufficient query refinement leading to cascading information retrieval failure.
+    - Incomplete data retrieval due to partial page processing.
+    - Incomplete or outdated information retrieval from search results.
+    - Temporal scope mismatch between query and data retrieval.
+    - Insufficient information retrieval leading to speculative reasoning.
+    - Agent query formulation insufficient for information retrieval within constraints.
+
+Topic 1  (n=6)  Keywords: agent failed failed failed retrieve retrieve
+  Split distribution: {'Hand-Crafted': 6}
+  Samples:
+    - Agent provided unreliable or insufficient information.
+    - Agent failed to retrieve accurate text data from web source.
+    - Agent failed due to inability to access required information sources.
+    - Agent failed to retrieve required external data.
+    - Agent failed to retrieve or process required information from external source.
+    - Agent misinterpreted source data causing cascading failure
+
+Topic 2  (n=6)  Keywords: orchestrator instructions subordinate agent subordinate
+  Split distribution: {'Hand-Crafted': 6}
+  Samples:
+    - Orchestrator overstepped by making decisions based on incomplete subordinate agent data.
+    - Orchestrator misapplied linguistic transformation rules.
+    - Orchestrator failed to specify required validation steps to a subordinate agent.
+    - Orchestrator failure during data processing phase.
+    - Orchestrator generated incorrect or faulty instructions.
+    - Orchestrator issued repetitive navigation commands instead of varied information retrieval instructions.
+
+Topic 3  (n=5)  Keywords: navigation agent process execute
+  Split distribution: {'Hand-Crafted': 5}
+  Samples:
+    - Agent navigation to irrelevant resources causing process disruption.
+    - Agent fails to execute necessary navigation actions.
+    - Agent failed to execute required navigation action.
+    - Agent produced no actionable output.
+    - Agent lacks capability to process audio input.
+
+Topic 4  (n=5)  Keywords: external external data resource missing required
+  Split distribution: {'Hand-Crafted': 5}
+  Samples:
+    - Missing required external data or resource.
+    - Resource access failure due to unavailable external data source.
+    - Incorrect delegation of problem-solving to external resources.
+    - Missing required external knowledge source.
+    - External data source lacks required information for key parameter.
+
+Topic 5  (n=4)  Keywords: initiating search incomplete initiating iterative
+  Split distribution: {'Hand-Crafted': 4}
+  Samples:
+    - Failure to verify prior results before initiating new planning.
+    - Incomplete list verification before initiating iterative search.
+    - Agent omitted critical search criteria and prematurely concluded from incomplete data.
+    - Premature conclusion without sufficient information gathering.
+
+Topic 6  (n=3)  Keywords: locate failure locate required information failure
+  Split distribution: {'Hand-Crafted': 3}
+  Samples:
+    - Failure to locate and extract required information from a specified source.
+    - Failure to locate required information within a document's structural elements.
+    - Information extraction failure from source content.
+
+Topic 7  (n=3)  Keywords: failure leading extraction extraction failure leading
+  Split distribution: {'Hand-Crafted': 3}
+  Samples:
+    - Incorrect data selection from a specified source list.
+    - Information extraction failure leading to incorrect direct output.
+    - OCR extraction failure leading to missed on-page information.
+
+Topic 8  (n=3)  Keywords: execution task execution task insufficient irrelevant
+  Split distribution: {'Hand-Crafted': 3}
+  Samples:
+    - Premature replanning interrupting sequential action execution.
+    - Incomplete task execution due to missing final step.
+    - Insufficient or irrelevant information retrieved for task execution.
+
+Topic 9  (n=3)  Keywords: procedural hallucinated misinterpretation instruction
+  Split distribution: {'Hand-Crafted': 3}
+  Samples:
+    - Incorrect or hallucinated procedural guidance provided.
+    - Instruction misinterpretation or ambiguity.
+    - Incorrect execution of a procedural or computational step.
+
+Topic 10  (n=2)  Keywords: reliance primary sources primary authoritative
+  Split distribution: {'Hand-Crafted': 2}
+  Samples:
+    - Over-reliance on secondary data instead of primary source verification.
+    - Reliance on unverified external data sources over primary authoritative sources.
+
+Topic 11  (n=2)  Keywords: approximated parameter calculation missing approximated algorithmic implementation
+  Split distribution: {'Hand-Crafted': 2}
+  Samples:
+    - Incorrect or flawed algorithmic implementation.
+    - Incorrect calculation due to missing or approximated parameter values.
+
+Topic 12  (n=2)  Keywords: unreliable information incorrect unreliable unreliable information retrieval
+  Split distribution: {'Hand-Crafted': 2}
+  Samples:
+    - Incorrect or unreliable information retrieval.
+    - Incorrect or unreliable information retrieval.
+

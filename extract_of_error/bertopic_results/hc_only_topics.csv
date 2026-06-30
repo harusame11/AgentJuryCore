@@ -1,0 +1,59 @@
+text,split,topic,prob,topic_keywords
+Agent navigation to irrelevant resources causing process disruption.,Hand-Crafted,3,0.26215872404039026,navigation agent process execute
+Agent provided unreliable or insufficient information.,Hand-Crafted,1,0.12551895597293805,agent failed failed failed retrieve retrieve
+Failure to locate and extract required information from a specified source.,Hand-Crafted,6,0.21743965716284763,locate failure locate required information failure
+Over-reliance on secondary data instead of primary source verification.,Hand-Crafted,10,1.0,reliance primary sources primary authoritative
+Agent failed to retrieve accurate text data from web source.,Hand-Crafted,1,0.4010684920449351,agent failed failed failed retrieve retrieve
+Failure to verify information accuracy against source data.,Hand-Crafted,-1,0.11777253435299732,accuracy verify information agent skipped dynamic
+Agent skipped required observation or verification steps.,Hand-Crafted,-1,0.10909847307487948,accuracy verify information agent skipped dynamic
+Agent fails to execute necessary navigation actions.,Hand-Crafted,3,1.0,navigation agent process execute
+Failure to verify prior results before initiating new planning.,Hand-Crafted,5,1.0,initiating search incomplete initiating iterative
+Orchestrator overstepped by making decisions based on incomplete subordinate agent data.,Hand-Crafted,2,1.0,orchestrator instructions subordinate agent subordinate
+Failure to interact with dynamic website elements.,Hand-Crafted,-1,0.0818860693298563,accuracy verify information agent skipped dynamic
+Incorrect data selection from a specified source list.,Hand-Crafted,7,1.0,failure leading extraction extraction failure leading
+Agent failed to execute required navigation action.,Hand-Crafted,3,1.0,navigation agent process execute
+Incorrect or flawed algorithmic implementation.,Hand-Crafted,11,1.0,approximated parameter calculation missing approximated algorithmic implementation
+Reliance on unverified external data sources over primary authoritative sources.,Hand-Crafted,10,1.0,reliance primary sources primary authoritative
+Failure to execute iterative exploration or apply available search filters.,Hand-Crafted,0,0.303154992282047,retrieval information retrieval insufficient query
+Insufficient search parameters for targeted information retrieval.,Hand-Crafted,0,1.0,retrieval information retrieval insufficient query
+Missing required external data or resource.,Hand-Crafted,4,1.0,external external data resource missing required
+Premature replanning interrupting sequential action execution.,Hand-Crafted,8,1.0,execution task execution task insufficient irrelevant
+Agent failed due to inability to access required information sources.,Hand-Crafted,1,0.14181342132819277,agent failed failed failed retrieve retrieve
+Failure to locate required information within a document's structural elements.,Hand-Crafted,6,1.0,locate failure locate required information failure
+Resource access failure due to unavailable external data source.,Hand-Crafted,4,0.32205264316744764,external external data resource missing required
+Agent failed to retrieve required external data.,Hand-Crafted,1,1.0,agent failed failed failed retrieve retrieve
+Orchestrator misapplied linguistic transformation rules.,Hand-Crafted,2,1.0,orchestrator instructions subordinate agent subordinate
+Incomplete task execution due to missing final step.,Hand-Crafted,8,1.0,execution task execution task insufficient irrelevant
+Information extraction failure leading to incorrect direct output.,Hand-Crafted,7,1.0,failure leading extraction extraction failure leading
+Incomplete data retrieval and insufficient document analysis progress.,Hand-Crafted,0,0.16218407991366046,retrieval information retrieval insufficient query
+Incorrect or unreliable information retrieval.,Hand-Crafted,12,1.0,unreliable information incorrect unreliable unreliable information retrieval
+Agent produced no actionable output.,Hand-Crafted,3,1.0,navigation agent process execute
+Incorrect delegation of problem-solving to external resources.,Hand-Crafted,4,1.0,external external data resource missing required
+Incomplete list verification before initiating iterative search.,Hand-Crafted,5,0.20530293837234334,initiating search incomplete initiating iterative
+Incorrect or hallucinated procedural guidance provided.,Hand-Crafted,9,1.0,procedural hallucinated misinterpretation instruction
+Agent failed to retrieve or process required information from external source.,Hand-Crafted,1,1.0,agent failed failed failed retrieve retrieve
+Insufficient query refinement leading to cascading information retrieval failure.,Hand-Crafted,0,1.0,retrieval information retrieval insufficient query
+OCR extraction failure leading to missed on-page information.,Hand-Crafted,7,0.23899600740958887,failure leading extraction extraction failure leading
+Incomplete data retrieval due to partial page processing.,Hand-Crafted,0,1.0,retrieval information retrieval insufficient query
+Missing required external knowledge source.,Hand-Crafted,4,0.2822571995567855,external external data resource missing required
+Orchestrator failed to specify required validation steps to a subordinate agent.,Hand-Crafted,2,0.5050886429830802,orchestrator instructions subordinate agent subordinate
+Instruction misinterpretation or ambiguity.,Hand-Crafted,9,1.0,procedural hallucinated misinterpretation instruction
+Agent omitted critical search criteria and prematurely concluded from incomplete data.,Hand-Crafted,5,0.18280567718363258,initiating search incomplete initiating iterative
+Agent misinterpreted source data causing cascading failure,Hand-Crafted,1,0.23422922621868533,agent failed failed failed retrieve retrieve
+Premature conclusion without sufficient information gathering.,Hand-Crafted,5,1.0,initiating search incomplete initiating iterative
+Incorrect execution of a procedural or computational step.,Hand-Crafted,9,0.22322839646855586,procedural hallucinated misinterpretation instruction
+Insufficient or irrelevant information retrieved for task execution.,Hand-Crafted,8,0.17273535875552296,execution task execution task insufficient irrelevant
+Orchestrator failure during data processing phase.,Hand-Crafted,2,1.0,orchestrator instructions subordinate agent subordinate
+External data source lacks required information for key parameter.,Hand-Crafted,4,0.2770738964956925,external external data resource missing required
+Orchestrator generated incorrect or faulty instructions.,Hand-Crafted,2,0.7106935446838766,orchestrator instructions subordinate agent subordinate
+Insufficient information validation before generating final output.,Hand-Crafted,-1,0.12910415530354521,accuracy verify information agent skipped dynamic
+Incorrect reasoning or flawed logical inference.,Hand-Crafted,-1,0.10710319157545714,accuracy verify information agent skipped dynamic
+Incorrect or unreliable information retrieval.,Hand-Crafted,12,1.0,unreliable information incorrect unreliable unreliable information retrieval
+Agent lacks capability to process audio input.,Hand-Crafted,3,1.0,navigation agent process execute
+Incomplete or outdated information retrieval from search results.,Hand-Crafted,0,1.0,retrieval information retrieval insufficient query
+Incorrect calculation due to missing or approximated parameter values.,Hand-Crafted,11,1.0,approximated parameter calculation missing approximated algorithmic implementation
+Temporal scope mismatch between query and data retrieval.,Hand-Crafted,0,0.43747162078788865,retrieval information retrieval insufficient query
+Orchestrator issued repetitive navigation commands instead of varied information retrieval instructions.,Hand-Crafted,2,1.0,orchestrator instructions subordinate agent subordinate
+Insufficient information retrieval leading to speculative reasoning.,Hand-Crafted,0,0.16507506677804876,retrieval information retrieval insufficient query
+Agent query formulation insufficient for information retrieval within constraints.,Hand-Crafted,0,0.46490536704077684,retrieval information retrieval insufficient query
+Information extraction failure from source content.,Hand-Crafted,6,1.0,locate failure locate required information failure

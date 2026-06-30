@@ -1,0 +1,270 @@
+=== Raw mistake_reason clustering: Hand-Crafted (58 samples) ===
+
+
+K=2 CLUSTERS  [KMeans inertia: 25.17]
+
+--- Cluster 0 (20 samples) ---
+  [Hand-Crafted] The agent does not verify the information and check whether the highest price of the house is located at Mission Bay. The search result is not accurate.
+  [Hand-Crafted] The code is wrong.
+  [Hand-Crafted] There is no membership information.
+  [Hand-Crafted] The Orchestrator made an error when performing the translation.
+  [Hand-Crafted] FileSurfer didn't correctly extract the relevant information but directly gave a wrong answer.
+  [Hand-Crafted] The searching result is wrong.
+  [Hand-Crafted] It did not return anything useful.
+  [Hand-Crafted] Assistant naviagtes the agents group to a wrong direction - contacting the offices for the result. Instead, the agents should solve the problems by themselves.
+  [Hand-Crafted] It provides incorrect instructions.
+  [Hand-Crafted] The instrcution is wrong.
+  [Hand-Crafted] The caculation is wrong.
+  [Hand-Crafted] The retrieved information is not useful.
+  [Hand-Crafted] The Orchestrator encountered an error while processing the data.
+  [Hand-Crafted] The Orchestrator writes incorrect code.
+  [Hand-Crafted] The agent didn't find enough information to answer the question but directly gave the answer.
+  [Hand-Crafted] The reasoning process is wrong.
+  [Hand-Crafted] The information it obtains is incorrect.
+  [Hand-Crafted] The agent should provide a transcription of the audio file to extract the page numbers, but it failed to transcribe the audio.
+  [Hand-Crafted] The assistant agent makes calculations with factual errors. The density of liquid Freon-12 under the required conditions is not provided. The calculation is based on an approximation of the density.
+  [Hand-Crafted] It failed to extract useful information from the Issue page.
+
+--- Cluster 1 (38 samples) ---
+  [Hand-Crafted] WebSurfer clicks on an irrelevant website and disrupts the task-solving process.
+  [Hand-Crafted] The information obtained by WebSurfer is neither reliable nor satisfies the requirements of the Orchestrator.
+  [Hand-Crafted] The WebSurfer should find the clickable link to the APOD image for the first week of August 2015 and extract the city name from the image's description.
+  [Hand-Crafted] The WebSurfer should visit TripAdvisor pages for specific trails to verify the number of reviews, average rating, instead it over relys on search results.
+  [Hand-Crafted] The WebSurfer did not provide the correct OCR text for the lyrics of the song 'Human Nature' by Michael Jackson in the bing search results.
+  [Hand-Crafted] The WebSurfer directly reaches a conclusion without performing the correct actions, such as taking a screenshot and extracting the bird species.
+  [Hand-Crafted] The WebSurfer does not click on useful information.
+  [Hand-Crafted] The Orchestrator should not replan. The answer is in the previous step, while it should try to verify the birthdate of the provided winners one by one.
+  [Hand-Crafted] The Orchestrator should not directly decide to check other criteria. In fact, WebSurfer did not provide a full list of supermarkets in the previous step.
+  [Hand-Crafted] The agent should recognize that the website has clickable and expandable tabs containing the full rhyme for each flavor.
+  [Hand-Crafted] When listing the top 10 domestic movies, the assistant omitted 'Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train' and included 'Wonder Woman 1984' instead. This led to an incorrect count of common movies between the two lists.
+  [Hand-Crafted] The websurfer did not actually enter the location and click the view. Therefore the website keeps on the same page and the same OCR result. If the location is correctly entered, the website link will change.
+  [Hand-Crafted] WebSurfer should refer to the list of funds on Fidelity's official website to find the correct answer and should not rely on third-party websites, which may lack comprehensive information.
+  [Hand-Crafted] The Orchestrator should let the Websurfer scroll down to check more movies. Moreover, there are search filters for keywords related to the runtime of the movie, but the agent fails to recognize based on the OCR. This can be achieved by scrolling down to explore further the page.
+  [Hand-Crafted] WebSurfer did not retrieve a list of eateries near Harkness Memorial State Park sorted by distance and operating hours. The keyword it entered was insufficient.
+  [Hand-Crafted] The Orchestrator should not decide to replan. WebSurfer has already triggered the button for 2020, but the Orchestrator did not give it a chance to click.
+  [Hand-Crafted] WebSurfer's inability to reliably access the requested documents resulted in the overall task failure, as the necessary time span data could not be extracted or compared. This underscores the need for enhanced fallback mechanisms and more robust search strategies.
+  [Hand-Crafted] WebSurfer encountered difficulties in locating and accessing the acknowledgment section of the paper, causing a delay in identifying the NASA award number associated with R.G. Arendt.
+  [Hand-Crafted] FileSurfer failed to access the article due to a 404 File Not Found error, leading to an incorrect guess (tricksy) instead of the correct word (fluffy)
+  [Hand-Crafted] The WebSurfer did not return the useful information needed to answer the question.
+  [Hand-Crafted] The Orchestrator should count the total number of revisions. The task has not yet been fully completed.
+  [Hand-Crafted] WebSurfer failed to locate the specific volume in the University of Leicester paper due to incomplete data retrieval from the journal's website and insufficient progress in analyzing the full PDF.
+  [Hand-Crafted] The list of gyms within 5 miles of 400 Main Street, Point Pleasant, WV 25550 is actually not shown in full at step 8. The Orchestrator then decides to search them one by one but does not confirm whether the list is complete.
+  [Hand-Crafted] WebSurfer failed to provide useful information and encountered errors during the process.
+  [Hand-Crafted] WebSurfer returned general and unrelated information due to poorly refined queries and failed to identify the specific version of OpenCV where Mask-RCNN support was added. This failure caused subsequent steps to proceed based on incorrect or incomplete data, leading to the wrong final answer.
+  [Hand-Crafted] WebSurfer's OCR did not correctly extract the required information (the prices of daily and season passes), leading the Orchestrator to think that the required information is not on the current page, when in fact it is.
+  [Hand-Crafted] The Orchestrator should instruct WebSurfer to collect the full list of Daniel Craig's movies on IMDb. Instead, it only displayed 18% of the page, leading the Orchestrator to incorrectly conclude that the movie list was complete.
+  [Hand-Crafted] The key word should include Monterey Bay Aquarium website.
+  [Hand-Crafted] The Orchestrator should instruct WebSurfer to search for hikes on TripAdvisor to verify the ratings and review counts, instead of merely searching the web.
+  [Hand-Crafted] WebSurfer makes two mistakes in this step, leading to failure. 1. It does not include the '2+ bathrooms' criterion in the search, resulting in invalid results. 2. It directly reaches a wrong conclusion by using intermediate search results.
+  [Hand-Crafted] WebSurfer misinterpreted or failed to retrieve the correct Latin root, leading to confusion in identifying the related Spanish word, thereby derailing subsequent steps.
+  [Hand-Crafted] The Orchestrator should not directly draw a conclusion if enough information has not been gathered to answer the query. It should replan to address the query.
+  [Hand-Crafted] The search tool does not return the desired information regarding the passenger count of each train in 2019. Therefore, the train with the highest number of passengers and its scheduled arrival time at Pompano Beach cannot be determined.
+  [Hand-Crafted] The search results of WebSurfer did not include the gym 'Avea Pilates' which is near Tompkins Square Park.
+  [Hand-Crafted] The agent provides information about the current roster, but the question asks for the roster as of July 2023. THe agent should search for the roster of Hokkaido Nippon-Ham Fighters in 2023.
+  [Hand-Crafted] The Orchestrator should instruct WebSurfer to search for the professional history of each board member to determine whether they held C-suite positions before joining Apple's Board. Instead, it repeatedly instructs WebSurfer to scroll on the same page.
+  [Hand-Crafted] The page retrieved by WebSurfer does not provide relevant information to address the question, causing the Orchestrator to rely on its own assumptions and make a guess.
+  [Hand-Crafted] WebSurfer's query is not concise enough to retrieve complete information to answer the original question, which leads to reaching the maximum time limit.
+
+K=3 CLUSTERS  [KMeans inertia: 23.52]
+
+--- Cluster 0 (14 samples) ---
+  [Hand-Crafted] The WebSurfer should visit TripAdvisor pages for specific trails to verify the number of reviews, average rating, instead it over relys on search results.
+  [Hand-Crafted] The Orchestrator should not replan. The answer is in the previous step, while it should try to verify the birthdate of the provided winners one by one.
+  [Hand-Crafted] The Orchestrator should not directly decide to check other criteria. In fact, WebSurfer did not provide a full list of supermarkets in the previous step.
+  [Hand-Crafted] The agent should recognize that the website has clickable and expandable tabs containing the full rhyme for each flavor.
+  [Hand-Crafted] The Orchestrator should let the Websurfer scroll down to check more movies. Moreover, there are search filters for keywords related to the runtime of the movie, but the agent fails to recognize based on the OCR. This can be achieved by scrolling down to explore further the page.
+  [Hand-Crafted] The Orchestrator should not decide to replan. WebSurfer has already triggered the button for 2020, but the Orchestrator did not give it a chance to click.
+  [Hand-Crafted] The Orchestrator should count the total number of revisions. The task has not yet been fully completed.
+  [Hand-Crafted] The list of gyms within 5 miles of 400 Main Street, Point Pleasant, WV 25550 is actually not shown in full at step 8. The Orchestrator then decides to search them one by one but does not confirm whether the list is complete.
+  [Hand-Crafted] The Orchestrator should instruct WebSurfer to collect the full list of Daniel Craig's movies on IMDb. Instead, it only displayed 18% of the page, leading the Orchestrator to incorrectly conclude that the movie list was complete.
+  [Hand-Crafted] The Orchestrator should instruct WebSurfer to search for hikes on TripAdvisor to verify the ratings and review counts, instead of merely searching the web.
+  [Hand-Crafted] The Orchestrator should not directly draw a conclusion if enough information has not been gathered to answer the query. It should replan to address the query.
+  [Hand-Crafted] The search tool does not return the desired information regarding the passenger count of each train in 2019. Therefore, the train with the highest number of passengers and its scheduled arrival time at Pompano Beach cannot be determined.
+  [Hand-Crafted] The agent provides information about the current roster, but the question asks for the roster as of July 2023. THe agent should search for the roster of Hokkaido Nippon-Ham Fighters in 2023.
+  [Hand-Crafted] The Orchestrator should instruct WebSurfer to search for the professional history of each board member to determine whether they held C-suite positions before joining Apple's Board. Instead, it repeatedly instructs WebSurfer to scroll on the same page.
+
+--- Cluster 1 (32 samples) ---
+  [Hand-Crafted] WebSurfer clicks on an irrelevant website and disrupts the task-solving process.
+  [Hand-Crafted] The information obtained by WebSurfer is neither reliable nor satisfies the requirements of the Orchestrator.
+  [Hand-Crafted] The WebSurfer should find the clickable link to the APOD image for the first week of August 2015 and extract the city name from the image's description.
+  [Hand-Crafted] The WebSurfer did not provide the correct OCR text for the lyrics of the song 'Human Nature' by Michael Jackson in the bing search results.
+  [Hand-Crafted] The agent does not verify the information and check whether the highest price of the house is located at Mission Bay. The search result is not accurate.
+  [Hand-Crafted] The WebSurfer directly reaches a conclusion without performing the correct actions, such as taking a screenshot and extracting the bird species.
+  [Hand-Crafted] The WebSurfer does not click on useful information.
+  [Hand-Crafted] When listing the top 10 domestic movies, the assistant omitted 'Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train' and included 'Wonder Woman 1984' instead. This led to an incorrect count of common movies between the two lists.
+  [Hand-Crafted] The websurfer did not actually enter the location and click the view. Therefore the website keeps on the same page and the same OCR result. If the location is correctly entered, the website link will change.
+  [Hand-Crafted] WebSurfer should refer to the list of funds on Fidelity's official website to find the correct answer and should not rely on third-party websites, which may lack comprehensive information.
+  [Hand-Crafted] WebSurfer did not retrieve a list of eateries near Harkness Memorial State Park sorted by distance and operating hours. The keyword it entered was insufficient.
+  [Hand-Crafted] There is no membership information.
+  [Hand-Crafted] WebSurfer's inability to reliably access the requested documents resulted in the overall task failure, as the necessary time span data could not be extracted or compared. This underscores the need for enhanced fallback mechanisms and more robust search strategies.
+  [Hand-Crafted] WebSurfer encountered difficulties in locating and accessing the acknowledgment section of the paper, causing a delay in identifying the NASA award number associated with R.G. Arendt.
+  [Hand-Crafted] FileSurfer failed to access the article due to a 404 File Not Found error, leading to an incorrect guess (tricksy) instead of the correct word (fluffy)
+  [Hand-Crafted] The WebSurfer did not return the useful information needed to answer the question.
+  [Hand-Crafted] FileSurfer didn't correctly extract the relevant information but directly gave a wrong answer.
+  [Hand-Crafted] WebSurfer failed to locate the specific volume in the University of Leicester paper due to incomplete data retrieval from the journal's website and insufficient progress in analyzing the full PDF.
+  [Hand-Crafted] It did not return anything useful.
+  [Hand-Crafted] WebSurfer failed to provide useful information and encountered errors during the process.
+  [Hand-Crafted] WebSurfer returned general and unrelated information due to poorly refined queries and failed to identify the specific version of OpenCV where Mask-RCNN support was added. This failure caused subsequent steps to proceed based on incorrect or incomplete data, leading to the wrong final answer.
+  [Hand-Crafted] WebSurfer's OCR did not correctly extract the required information (the prices of daily and season passes), leading the Orchestrator to think that the required information is not on the current page, when in fact it is.
+  [Hand-Crafted] The key word should include Monterey Bay Aquarium website.
+  [Hand-Crafted] WebSurfer makes two mistakes in this step, leading to failure. 1. It does not include the '2+ bathrooms' criterion in the search, resulting in invalid results. 2. It directly reaches a wrong conclusion by using intermediate search results.
+  [Hand-Crafted] WebSurfer misinterpreted or failed to retrieve the correct Latin root, leading to confusion in identifying the related Spanish word, thereby derailing subsequent steps.
+  [Hand-Crafted] The retrieved information is not useful.
+  [Hand-Crafted] The agent should provide a transcription of the audio file to extract the page numbers, but it failed to transcribe the audio.
+  [Hand-Crafted] The search results of WebSurfer did not include the gym 'Avea Pilates' which is near Tompkins Square Park.
+  [Hand-Crafted] The assistant agent makes calculations with factual errors. The density of liquid Freon-12 under the required conditions is not provided. The calculation is based on an approximation of the density.
+  [Hand-Crafted] The page retrieved by WebSurfer does not provide relevant information to address the question, causing the Orchestrator to rely on its own assumptions and make a guess.
+  [Hand-Crafted] WebSurfer's query is not concise enough to retrieve complete information to answer the original question, which leads to reaching the maximum time limit.
+  [Hand-Crafted] It failed to extract useful information from the Issue page.
+
+--- Cluster 2 (12 samples) ---
+  [Hand-Crafted] The code is wrong.
+  [Hand-Crafted] The Orchestrator made an error when performing the translation.
+  [Hand-Crafted] The searching result is wrong.
+  [Hand-Crafted] Assistant naviagtes the agents group to a wrong direction - contacting the offices for the result. Instead, the agents should solve the problems by themselves.
+  [Hand-Crafted] It provides incorrect instructions.
+  [Hand-Crafted] The instrcution is wrong.
+  [Hand-Crafted] The caculation is wrong.
+  [Hand-Crafted] The Orchestrator encountered an error while processing the data.
+  [Hand-Crafted] The Orchestrator writes incorrect code.
+  [Hand-Crafted] The agent didn't find enough information to answer the question but directly gave the answer.
+  [Hand-Crafted] The reasoning process is wrong.
+  [Hand-Crafted] The information it obtains is incorrect.
+
+K=4 CLUSTERS  [KMeans inertia: 22.70]
+
+--- Cluster 0 (29 samples) ---
+  [Hand-Crafted] WebSurfer clicks on an irrelevant website and disrupts the task-solving process.
+  [Hand-Crafted] The information obtained by WebSurfer is neither reliable nor satisfies the requirements of the Orchestrator.
+  [Hand-Crafted] The WebSurfer should find the clickable link to the APOD image for the first week of August 2015 and extract the city name from the image's description.
+  [Hand-Crafted] The WebSurfer did not provide the correct OCR text for the lyrics of the song 'Human Nature' by Michael Jackson in the bing search results.
+  [Hand-Crafted] The WebSurfer directly reaches a conclusion without performing the correct actions, such as taking a screenshot and extracting the bird species.
+  [Hand-Crafted] The WebSurfer does not click on useful information.
+  [Hand-Crafted] The websurfer did not actually enter the location and click the view. Therefore the website keeps on the same page and the same OCR result. If the location is correctly entered, the website link will change.
+  [Hand-Crafted] WebSurfer did not retrieve a list of eateries near Harkness Memorial State Park sorted by distance and operating hours. The keyword it entered was insufficient.
+  [Hand-Crafted] There is no membership information.
+  [Hand-Crafted] WebSurfer's inability to reliably access the requested documents resulted in the overall task failure, as the necessary time span data could not be extracted or compared. This underscores the need for enhanced fallback mechanisms and more robust search strategies.
+  [Hand-Crafted] WebSurfer encountered difficulties in locating and accessing the acknowledgment section of the paper, causing a delay in identifying the NASA award number associated with R.G. Arendt.
+  [Hand-Crafted] FileSurfer failed to access the article due to a 404 File Not Found error, leading to an incorrect guess (tricksy) instead of the correct word (fluffy)
+  [Hand-Crafted] The WebSurfer did not return the useful information needed to answer the question.
+  [Hand-Crafted] FileSurfer didn't correctly extract the relevant information but directly gave a wrong answer.
+  [Hand-Crafted] WebSurfer failed to locate the specific volume in the University of Leicester paper due to incomplete data retrieval from the journal's website and insufficient progress in analyzing the full PDF.
+  [Hand-Crafted] It did not return anything useful.
+  [Hand-Crafted] WebSurfer failed to provide useful information and encountered errors during the process.
+  [Hand-Crafted] WebSurfer returned general and unrelated information due to poorly refined queries and failed to identify the specific version of OpenCV where Mask-RCNN support was added. This failure caused subsequent steps to proceed based on incorrect or incomplete data, leading to the wrong final answer.
+  [Hand-Crafted] WebSurfer's OCR did not correctly extract the required information (the prices of daily and season passes), leading the Orchestrator to think that the required information is not on the current page, when in fact it is.
+  [Hand-Crafted] WebSurfer makes two mistakes in this step, leading to failure. 1. It does not include the '2+ bathrooms' criterion in the search, resulting in invalid results. 2. It directly reaches a wrong conclusion by using intermediate search results.
+  [Hand-Crafted] WebSurfer misinterpreted or failed to retrieve the correct Latin root, leading to confusion in identifying the related Spanish word, thereby derailing subsequent steps.
+  [Hand-Crafted] The retrieved information is not useful.
+  [Hand-Crafted] The search tool does not return the desired information regarding the passenger count of each train in 2019. Therefore, the train with the highest number of passengers and its scheduled arrival time at Pompano Beach cannot be determined.
+  [Hand-Crafted] The agent didn't find enough information to answer the question but directly gave the answer.
+  [Hand-Crafted] The agent should provide a transcription of the audio file to extract the page numbers, but it failed to transcribe the audio.
+  [Hand-Crafted] The search results of WebSurfer did not include the gym 'Avea Pilates' which is near Tompkins Square Park.
+  [Hand-Crafted] The page retrieved by WebSurfer does not provide relevant information to address the question, causing the Orchestrator to rely on its own assumptions and make a guess.
+  [Hand-Crafted] WebSurfer's query is not concise enough to retrieve complete information to answer the original question, which leads to reaching the maximum time limit.
+  [Hand-Crafted] It failed to extract useful information from the Issue page.
+
+--- Cluster 1 (14 samples) ---
+  [Hand-Crafted] The agent does not verify the information and check whether the highest price of the house is located at Mission Bay. The search result is not accurate.
+  [Hand-Crafted] When listing the top 10 domestic movies, the assistant omitted 'Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train' and included 'Wonder Woman 1984' instead. This led to an incorrect count of common movies between the two lists.
+  [Hand-Crafted] The code is wrong.
+  [Hand-Crafted] The Orchestrator made an error when performing the translation.
+  [Hand-Crafted] The searching result is wrong.
+  [Hand-Crafted] Assistant naviagtes the agents group to a wrong direction - contacting the offices for the result. Instead, the agents should solve the problems by themselves.
+  [Hand-Crafted] It provides incorrect instructions.
+  [Hand-Crafted] The instrcution is wrong.
+  [Hand-Crafted] The caculation is wrong.
+  [Hand-Crafted] The Orchestrator encountered an error while processing the data.
+  [Hand-Crafted] The Orchestrator writes incorrect code.
+  [Hand-Crafted] The reasoning process is wrong.
+  [Hand-Crafted] The information it obtains is incorrect.
+  [Hand-Crafted] The assistant agent makes calculations with factual errors. The density of liquid Freon-12 under the required conditions is not provided. The calculation is based on an approximation of the density.
+
+--- Cluster 2 (9 samples) ---
+  [Hand-Crafted] The Orchestrator should not replan. The answer is in the previous step, while it should try to verify the birthdate of the provided winners one by one.
+  [Hand-Crafted] The Orchestrator should not directly decide to check other criteria. In fact, WebSurfer did not provide a full list of supermarkets in the previous step.
+  [Hand-Crafted] The Orchestrator should not decide to replan. WebSurfer has already triggered the button for 2020, but the Orchestrator did not give it a chance to click.
+  [Hand-Crafted] The Orchestrator should count the total number of revisions. The task has not yet been fully completed.
+  [Hand-Crafted] The list of gyms within 5 miles of 400 Main Street, Point Pleasant, WV 25550 is actually not shown in full at step 8. The Orchestrator then decides to search them one by one but does not confirm whether the list is complete.
+  [Hand-Crafted] The Orchestrator should instruct WebSurfer to collect the full list of Daniel Craig's movies on IMDb. Instead, it only displayed 18% of the page, leading the Orchestrator to incorrectly conclude that the movie list was complete.
+  [Hand-Crafted] The Orchestrator should not directly draw a conclusion if enough information has not been gathered to answer the query. It should replan to address the query.
+  [Hand-Crafted] The agent provides information about the current roster, but the question asks for the roster as of July 2023. THe agent should search for the roster of Hokkaido Nippon-Ham Fighters in 2023.
+  [Hand-Crafted] The Orchestrator should instruct WebSurfer to search for the professional history of each board member to determine whether they held C-suite positions before joining Apple's Board. Instead, it repeatedly instructs WebSurfer to scroll on the same page.
+
+--- Cluster 3 (6 samples) ---
+  [Hand-Crafted] The WebSurfer should visit TripAdvisor pages for specific trails to verify the number of reviews, average rating, instead it over relys on search results.
+  [Hand-Crafted] The agent should recognize that the website has clickable and expandable tabs containing the full rhyme for each flavor.
+  [Hand-Crafted] WebSurfer should refer to the list of funds on Fidelity's official website to find the correct answer and should not rely on third-party websites, which may lack comprehensive information.
+  [Hand-Crafted] The Orchestrator should let the Websurfer scroll down to check more movies. Moreover, there are search filters for keywords related to the runtime of the movie, but the agent fails to recognize based on the OCR. This can be achieved by scrolling down to explore further the page.
+  [Hand-Crafted] The key word should include Monterey Bay Aquarium website.
+  [Hand-Crafted] The Orchestrator should instruct WebSurfer to search for hikes on TripAdvisor to verify the ratings and review counts, instead of merely searching the web.
+
+K=5 CLUSTERS  [KMeans inertia: 21.82]
+
+--- Cluster 0 (13 samples) ---
+  [Hand-Crafted] The WebSurfer should visit TripAdvisor pages for specific trails to verify the number of reviews, average rating, instead it over relys on search results.
+  [Hand-Crafted] The Orchestrator should not replan. The answer is in the previous step, while it should try to verify the birthdate of the provided winners one by one.
+  [Hand-Crafted] The Orchestrator should not directly decide to check other criteria. In fact, WebSurfer did not provide a full list of supermarkets in the previous step.
+  [Hand-Crafted] WebSurfer should refer to the list of funds on Fidelity's official website to find the correct answer and should not rely on third-party websites, which may lack comprehensive information.
+  [Hand-Crafted] The Orchestrator should let the Websurfer scroll down to check more movies. Moreover, there are search filters for keywords related to the runtime of the movie, but the agent fails to recognize based on the OCR. This can be achieved by scrolling down to explore further the page.
+  [Hand-Crafted] The Orchestrator should not decide to replan. WebSurfer has already triggered the button for 2020, but the Orchestrator did not give it a chance to click.
+  [Hand-Crafted] The Orchestrator should count the total number of revisions. The task has not yet been fully completed.
+  [Hand-Crafted] The list of gyms within 5 miles of 400 Main Street, Point Pleasant, WV 25550 is actually not shown in full at step 8. The Orchestrator then decides to search them one by one but does not confirm whether the list is complete.
+  [Hand-Crafted] The Orchestrator should instruct WebSurfer to collect the full list of Daniel Craig's movies on IMDb. Instead, it only displayed 18% of the page, leading the Orchestrator to incorrectly conclude that the movie list was complete.
+  [Hand-Crafted] The Orchestrator should instruct WebSurfer to search for hikes on TripAdvisor to verify the ratings and review counts, instead of merely searching the web.
+  [Hand-Crafted] The Orchestrator should not directly draw a conclusion if enough information has not been gathered to answer the query. It should replan to address the query.
+  [Hand-Crafted] The agent provides information about the current roster, but the question asks for the roster as of July 2023. THe agent should search for the roster of Hokkaido Nippon-Ham Fighters in 2023.
+  [Hand-Crafted] The Orchestrator should instruct WebSurfer to search for the professional history of each board member to determine whether they held C-suite positions before joining Apple's Board. Instead, it repeatedly instructs WebSurfer to scroll on the same page.
+
+--- Cluster 1 (18 samples) ---
+  [Hand-Crafted] When listing the top 10 domestic movies, the assistant omitted 'Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train' and included 'Wonder Woman 1984' instead. This led to an incorrect count of common movies between the two lists.
+  [Hand-Crafted] The code is wrong.
+  [Hand-Crafted] The Orchestrator made an error when performing the translation.
+  [Hand-Crafted] The searching result is wrong.
+  [Hand-Crafted] It did not return anything useful.
+  [Hand-Crafted] Assistant naviagtes the agents group to a wrong direction - contacting the offices for the result. Instead, the agents should solve the problems by themselves.
+  [Hand-Crafted] It provides incorrect instructions.
+  [Hand-Crafted] The instrcution is wrong.
+  [Hand-Crafted] The caculation is wrong.
+  [Hand-Crafted] The retrieved information is not useful.
+  [Hand-Crafted] The Orchestrator encountered an error while processing the data.
+  [Hand-Crafted] The Orchestrator writes incorrect code.
+  [Hand-Crafted] The agent didn't find enough information to answer the question but directly gave the answer.
+  [Hand-Crafted] The reasoning process is wrong.
+  [Hand-Crafted] The information it obtains is incorrect.
+  [Hand-Crafted] The agent should provide a transcription of the audio file to extract the page numbers, but it failed to transcribe the audio.
+  [Hand-Crafted] The assistant agent makes calculations with factual errors. The density of liquid Freon-12 under the required conditions is not provided. The calculation is based on an approximation of the density.
+  [Hand-Crafted] It failed to extract useful information from the Issue page.
+
+--- Cluster 2 (10 samples) ---
+  [Hand-Crafted] The agent does not verify the information and check whether the highest price of the house is located at Mission Bay. The search result is not accurate.
+  [Hand-Crafted] The websurfer did not actually enter the location and click the view. Therefore the website keeps on the same page and the same OCR result. If the location is correctly entered, the website link will change.
+  [Hand-Crafted] WebSurfer did not retrieve a list of eateries near Harkness Memorial State Park sorted by distance and operating hours. The keyword it entered was insufficient.
+  [Hand-Crafted] There is no membership information.
+  [Hand-Crafted] WebSurfer encountered difficulties in locating and accessing the acknowledgment section of the paper, causing a delay in identifying the NASA award number associated with R.G. Arendt.
+  [Hand-Crafted] FileSurfer failed to access the article due to a 404 File Not Found error, leading to an incorrect guess (tricksy) instead of the correct word (fluffy)
+  [Hand-Crafted] WebSurfer makes two mistakes in this step, leading to failure. 1. It does not include the '2+ bathrooms' criterion in the search, resulting in invalid results. 2. It directly reaches a wrong conclusion by using intermediate search results.
+  [Hand-Crafted] WebSurfer misinterpreted or failed to retrieve the correct Latin root, leading to confusion in identifying the related Spanish word, thereby derailing subsequent steps.
+  [Hand-Crafted] The search tool does not return the desired information regarding the passenger count of each train in 2019. Therefore, the train with the highest number of passengers and its scheduled arrival time at Pompano Beach cannot be determined.
+  [Hand-Crafted] The search results of WebSurfer did not include the gym 'Avea Pilates' which is near Tompkins Square Park.
+
+--- Cluster 3 (14 samples) ---
+  [Hand-Crafted] WebSurfer clicks on an irrelevant website and disrupts the task-solving process.
+  [Hand-Crafted] The information obtained by WebSurfer is neither reliable nor satisfies the requirements of the Orchestrator.
+  [Hand-Crafted] The WebSurfer did not provide the correct OCR text for the lyrics of the song 'Human Nature' by Michael Jackson in the bing search results.
+  [Hand-Crafted] The WebSurfer directly reaches a conclusion without performing the correct actions, such as taking a screenshot and extracting the bird species.
+  [Hand-Crafted] The WebSurfer does not click on useful information.
+  [Hand-Crafted] WebSurfer's inability to reliably access the requested documents resulted in the overall task failure, as the necessary time span data could not be extracted or compared. This underscores the need for enhanced fallback mechanisms and more robust search strategies.
+  [Hand-Crafted] The WebSurfer did not return the useful information needed to answer the question.
+  [Hand-Crafted] FileSurfer didn't correctly extract the relevant information but directly gave a wrong answer.
+  [Hand-Crafted] WebSurfer failed to locate the specific volume in the University of Leicester paper due to incomplete data retrieval from the journal's website and insufficient progress in analyzing the full PDF.
+  [Hand-Crafted] WebSurfer failed to provide useful information and encountered errors during the process.
+  [Hand-Crafted] WebSurfer returned general and unrelated information due to poorly refined queries and failed to identify the specific version of OpenCV where Mask-RCNN support was added. This failure caused subsequent steps to proceed based on incorrect or incomplete data, leading to the wrong final answer.
+  [Hand-Crafted] WebSurfer's OCR did not correctly extract the required information (the prices of daily and season passes), leading the Orchestrator to think that the required information is not on the current page, when in fact it is.
+  [Hand-Crafted] The page retrieved by WebSurfer does not provide relevant information to address the question, causing the Orchestrator to rely on its own assumptions and make a guess.
+  [Hand-Crafted] WebSurfer's query is not concise enough to retrieve complete information to answer the original question, which leads to reaching the maximum time limit.
+
+--- Cluster 4 (3 samples) ---
+  [Hand-Crafted] The WebSurfer should find the clickable link to the APOD image for the first week of August 2015 and extract the city name from the image's description.
+  [Hand-Crafted] The agent should recognize that the website has clickable and expandable tabs containing the full rhyme for each flavor.
+  [Hand-Crafted] The key word should include Monterey Bay Aquarium website.
