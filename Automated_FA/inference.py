@@ -12,7 +12,10 @@ from Lib.api_utils import (
     AgentJury_alg_enhance,
     AgentJury_alg_enhance_noGT,
 )
-from Lib.api_utils_4_handcrafted import AgentJury_hc_enhance
+from Lib.api_utils_4_handcrafted import (
+    AgentJury_hc_enhance,
+    AgentJury_hc_enhance_noGT,
+)
 from Lib.alg_melting import (
     AgentJury_ablation_no_probe,
     AgentJury_ablation_no_spotlight,
@@ -24,12 +27,13 @@ PUBLIC_METHODS = {
     "agentjury_alg_enhance": AgentJury_alg_enhance,
     "agentjury_alg_enhance_nogt": AgentJury_alg_enhance_noGT,
     "agentjury_hc_enhance": AgentJury_hc_enhance,
+    "agentjury_hc_enhance_nogt": AgentJury_hc_enhance_noGT,
     "ablation_no_spotlight": AgentJury_ablation_no_spotlight,
     "ablation_static_experts": AgentJury_ablation_static_experts,
     "ablation_no_probe": AgentJury_ablation_no_probe,
 }
 
-HC_METHODS = {"agentjury_hc_enhance"}
+HC_METHODS = {"agentjury_hc_enhance", "agentjury_hc_enhance_nogt"}
 ALG_ABLATION_METHODS = {
     "ablation_no_spotlight",
     "ablation_static_experts",

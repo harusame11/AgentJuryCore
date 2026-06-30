@@ -19,6 +19,7 @@ The public CLI exposes only the current paper methods:
 | `agentjury_alg_enhance` | Algorithm-Generated | Main AgentJury method for algorithm-generated traces |
 | `agentjury_alg_enhance_nogt` | Algorithm-Generated | No-ground-truth-control variant |
 | `agentjury_hc_enhance` | Hand-Crafted | Main AgentJury method for hand-crafted WebSurfer-style traces |
+| `agentjury_hc_enhance_nogt` | Hand-Crafted | No-ground-truth-control variant for hand-crafted traces |
 | `ablation_no_spotlight` | Algorithm-Generated | Removes selective sliding spotlight expansion |
 | `ablation_static_experts` | Algorithm-Generated | Replaces data-driven experts with static generic experts |
 | `ablation_no_probe` | Algorithm-Generated | Removes recursive localization probe |
@@ -78,7 +79,7 @@ The code uses model aliases defined in `Automated_FA/Lib/api_utils.py`:
 Prepare datasets as JSON directories. The expected fields are:
 
 - Algorithm-Generated: `history`, `question`, `ground_truth`, `system_prompt`, `mistake_agent`, `mistake_step`, `mistake_reason`.
-- Hand-Crafted: `history`, `question`, `ground_truth`, `mistake_agent`, `mistake_step`, `mistake_reason`.
+- Hand-Crafted: `history`, `question`, `mistake_agent`, `mistake_step`, `mistake_reason`; `ground_truth` is optional for `agentjury_hc_enhance_nogt`.
 
 Example layout:
 
@@ -111,6 +112,17 @@ Hand-Crafted main method:
 ```bash
 python Automated_FA/inference.py \
   --method agentjury_hc_enhance \
+  --model ds-v3.2 \
+  --directory_path data/Hand-Crafted \
+  --is_handcrafted True \
+  --max_tokens 1500
+```
+
+Hand-Crafted no-ground-truth variant:
+
+```bash
+python Automated_FA/inference.py \
+  --method agentjury_hc_enhance_nogt \
   --model ds-v3.2 \
   --directory_path data/Hand-Crafted \
   --is_handcrafted True \

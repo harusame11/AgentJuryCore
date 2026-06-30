@@ -889,8 +889,6 @@ def AgentJury_hc_enhance(client, directory_path: str, model: str,
 
         history_raw  = data.get("history", [])
         problem      = data.get("question", "")
-        ground_truth = data.get("ground_truth", "")
-
         # ── 构建 chat_history（跳过 human，保留 history_index）────────────────
         chat_history = []
         for h_idx, entry in enumerate(history_raw):
@@ -1453,3 +1451,24 @@ def AgentJury_hc_enhance(client, directory_path: str, model: str,
             print(f"Agent Name: {first_exec_agent}")
             print(f"Step Number: {first_exec_step}")
             print(f"Reason: (HC-Enhance Failsafe) No confident conviction reached.")
+
+
+def AgentJury_hc_enhance_noGT(client, directory_path: str, model: str,
+                               max_tokens: int,
+                               target_seg_size: int = 15, max_probe_k: int = 8):
+    """
+    No-ground-truth public entry for the Hand-Crafted split.
+
+    The HC enhanced pipeline does not inject `ground_truth` into probe or DAO
+    prompts; this wrapper exists so experiments can use an explicit method name
+    and produce separate noGT logs.
+    """
+    print("\n--- [HC-Enhance-noGT] Ground-truth-free Hand-Crafted run ---")
+    return AgentJury_hc_enhance(
+        client=client,
+        directory_path=directory_path,
+        model=model,
+        max_tokens=max_tokens,
+        target_seg_size=target_seg_size,
+        max_probe_k=max_probe_k,
+    )
