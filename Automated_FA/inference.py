@@ -41,6 +41,13 @@ PUBLIC_METHODS = {
 
 HC_METHODS = {"agentjury_hc_enhance", "agentjury_hc_enhance_nogt"}
 BASELINE_METHODS = {"all_at_once", "step_by_step", "binary_search"}
+MAIN_EXPERIMENT_METHODS = {
+    "agentjury_alg_enhance",
+    "agentjury_alg_enhance_nogt",
+    "agentjury_hc_enhance",
+    "agentjury_hc_enhance_nogt",
+}
+MAIN_EXPERIMENT_MODEL = "ds-v3.2"
 ALG_ABLATION_METHODS = {
     "ablation_no_spotlight",
     "ablation_static_experts",
@@ -173,6 +180,13 @@ def main():
         help="Maximum adaptive probe count for the Hand-Crafted method.",
     )
     args = parser.parse_args()
+
+    if args.method in MAIN_EXPERIMENT_METHODS and args.model != MAIN_EXPERIMENT_MODEL:
+        print(
+            f"[Config] {args.method} uses DeepSeek-V3.2 Thinking; "
+            f"overriding --model {args.model} with {MAIN_EXPERIMENT_MODEL}."
+        )
+        args.model = MAIN_EXPERIMENT_MODEL
 
     args.is_handcrafted = _str_to_bool(args.is_handcrafted)
 

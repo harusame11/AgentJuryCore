@@ -79,13 +79,13 @@ def _make_api_call(client, model, messages, max_tokens, temperature=0.3):
 
 def _make_api_DAO_1_call(client, model, messages, max_tokens=None):
     # DAO output is unlimited: complex JSON verdict must not be truncated
-    return _make_api_call_with_retry(client, "qwen-3.5", messages, max_tokens=None, thinking=False)
+    return _make_api_call_with_retry(client, "ds-v3.2", messages, max_tokens=None, thinking=True)
 
 def _make_api_DAO_2_call(client, model, messages, max_tokens=None):
-    return _make_api_call_with_retry(client, "qwen-3.5", messages, max_tokens=None, thinking=False)
+    return _make_api_call_with_retry(client, "ds-v3.2", messages, max_tokens=None, thinking=True)
 
 def _make_api_DAO_3_call(client, model, messages, max_tokens=None):
-    return _make_api_call_with_retry(client, "qwen-3.5", messages, max_tokens=None, thinking=False)
+    return _make_api_call_with_retry(client, "ds-v3.2", messages, max_tokens=None, thinking=True)
 
 # --- All-at-Once Method ---
 
@@ -2917,7 +2917,7 @@ def AgentJury_alg_enhance(client, directory_path: str, model: str,
             msg = [{"role": "system", "content": probe_sys},
                    {"role": "user",   "content": probe_user}]
             _in_tok = _msgs_in(msg)
-            raw = _make_api_call_with_retry(client, "kimi-2.5", msg, max_tokens=2048, thinking=False)
+            raw = _make_api_call_with_retry(client, "ds-v3.2", msg, max_tokens=2048, thinking=True)
             return raw, _in_tok
 
         # ── k 次并发调用 ──────────────────────────────────────────────────────────
@@ -3662,7 +3662,7 @@ def AgentJury_alg_enhance_noGT(client, directory_path: str, model: str,
             msg = [{"role": "system", "content": probe_sys},
                    {"role": "user",   "content": probe_user}]
             _in_tok = _msgs_in(msg)
-            raw = _make_api_call_with_retry(client, "kimi-2.5", msg, max_tokens=2048, thinking=False)
+            raw = _make_api_call_with_retry(client, "ds-v3.2", msg, max_tokens=2048, thinking=True)
             return raw, _in_tok
 
         # ── k 次并发调用 ──────────────────────────────────────────────────────────

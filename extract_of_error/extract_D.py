@@ -42,7 +42,7 @@ CLUSTER_OUTPUT = Path(__file__).parent / "cluster_results.txt"
 # SiliconFlow API (OpenAI-compatible) — same config as inference.py
 SILICON_API_KEY  = os.environ.get("SILICON_API_KEY", "")
 SILICON_BASE_URL = os.environ.get("SILICON_BASE_URL", "https://api.siliconflow.cn/v1")
-MODEL_NAME       = os.environ.get("SILICON_MODEL", "deepseek-ai/DeepSeek-V3.2")
+MODEL_NAME       = os.environ.get("SILICON_MODEL", "Qwen/Qwen3.5-35B-A3B")
 
 
 # ── PHASE 1: LLM Feature Extraction ─────────────────────────────────────────
