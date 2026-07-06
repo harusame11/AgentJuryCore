@@ -50,7 +50,7 @@ def _make_api_call_with_retry(client, model_name, messages, max_tokens=None, ret
     for attempt in range(retries):
         try:
             call_kwargs = dict(
-                model=API_MODEL_MAP[model_name],
+                model=API_MODEL_MAP.get(model_name, model_name),
                 messages=messages,
                 stream=True,
                 temperature=temperature,
@@ -75,7 +75,7 @@ def _make_api_call_with_retry(client, model_name, messages, max_tokens=None, ret
                 return None
 
 def _make_api_call(client, model, messages, max_tokens, temperature=0.3):
-    return _make_api_call_with_retry(client, "qwen-3.5", messages, max_tokens, temperature=temperature)
+    return _make_api_call_with_retry(client, model, messages, max_tokens, temperature=temperature)
 
 def _make_api_DAO_1_call(client, model, messages, max_tokens=None):
     # DAO output is unlimited: complex JSON verdict must not be truncated

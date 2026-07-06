@@ -11,6 +11,9 @@ from Lib.api_utils import (
     API_MODEL_MAP,
     AgentJury_alg_enhance,
     AgentJury_alg_enhance_noGT,
+    all_at_once_api,
+    binary_search_api,
+    step_by_step_api,
 )
 from Lib.api_utils_4_handcrafted import (
     AgentJury_hc_enhance,
@@ -24,6 +27,9 @@ from Lib.alg_melting import (
 
 
 PUBLIC_METHODS = {
+    "all_at_once": all_at_once_api,
+    "step_by_step": step_by_step_api,
+    "binary_search": binary_search_api,
     "agentjury_alg_enhance": AgentJury_alg_enhance,
     "agentjury_alg_enhance_nogt": AgentJury_alg_enhance_noGT,
     "agentjury_hc_enhance": AgentJury_hc_enhance,
@@ -34,6 +40,7 @@ PUBLIC_METHODS = {
 }
 
 HC_METHODS = {"agentjury_hc_enhance", "agentjury_hc_enhance_nogt"}
+BASELINE_METHODS = {"all_at_once", "step_by_step", "binary_search"}
 ALG_ABLATION_METHODS = {
     "ablation_no_spotlight",
     "ablation_static_experts",
@@ -82,6 +89,12 @@ def _run_method(
             max_probe_k=args.max_probe_k,
         )
 
+    if method in BASELINE_METHODS:
+        return func(
+            **common_kwargs,
+            is_handcrafted=args.is_handcrafted,
+        )
+
     if method in {"agentjury_alg_enhance", "agentjury_alg_enhance_nogt", "ablation_static_experts"}:
         return func(
             **common_kwargs,
@@ -101,7 +114,7 @@ def main():
         "--method",
         required=True,
         choices=sorted(PUBLIC_METHODS),
-        help="Public experiment entry. Historical baselines are kept in Lib/ but are not exposed here.",
+        help="AgentJury method, formal baseline, or ablation entry.",
     )
     parser.add_argument(
         "--model",

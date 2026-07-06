@@ -29,7 +29,7 @@ Given a multi-agent trajectory, AgentJury predicts:
 - the earliest step where the failure was introduced;
 - a natural-language rationale for the attribution.
 
-The public CLI exposes only the current paper methods:
+The public CLI exposes the AgentJury methods, formal comparison baselines, and ablations:
 
 | Method | Split | Description |
 |---|---|---|
@@ -37,11 +37,14 @@ The public CLI exposes only the current paper methods:
 | `agentjury_alg_enhance_nogt` | Algorithm-Generated | No-ground-truth-control variant |
 | `agentjury_hc_enhance` | Hand-Crafted | Main AgentJury method for hand-crafted WebSurfer-style traces |
 | `agentjury_hc_enhance_nogt` | Hand-Crafted | No-ground-truth-control variant for hand-crafted traces |
+| `all_at_once` | Both splits | Who&When All-at-Once comparison baseline |
+| `step_by_step` | Both splits | Who&When Step-by-Step comparison baseline |
+| `binary_search` | Both splits | Who&When Binary Search comparison baseline |
 | `ablation_no_spotlight` | Algorithm-Generated | Removes selective sliding spotlight expansion |
 | `ablation_static_experts` | Algorithm-Generated | Replaces data-driven experts with static generic experts |
 | `ablation_no_probe` | Algorithm-Generated | Removes recursive localization probe |
 
-Historical baselines and development variants remain in `Automated_FA/Lib/` for auditability, but they are not exposed as public CLI entry points.
+The three formal Who&When baselines are exposed through the CLI. Other development variants remain in `Automated_FA/Lib/` for auditability but are not public entries.
 
 ## Paper-to-Code Mapping
 
@@ -51,6 +54,9 @@ Historical baselines and development variants remain in `Automated_FA/Lib/` for 
 | Algorithm-Generated noGT control | `agentjury_alg_enhance_nogt` | `AgentJury_alg_enhance_noGT` | `Automated_FA/Lib/api_utils.py` |
 | Hand-Crafted main result | `agentjury_hc_enhance` | `AgentJury_hc_enhance` | `Automated_FA/Lib/api_utils_4_handcrafted.py` |
 | Hand-Crafted noGT control | `agentjury_hc_enhance_nogt` | `AgentJury_hc_enhance_noGT` | `Automated_FA/Lib/api_utils_4_handcrafted.py` |
+| All-at-Once baseline | `all_at_once` | `all_at_once_api` | `Automated_FA/Lib/api_utils.py` |
+| Step-by-Step baseline | `step_by_step` | `step_by_step_api` | `Automated_FA/Lib/api_utils.py` |
+| Binary Search baseline | `binary_search` | `binary_search_api` | `Automated_FA/Lib/api_utils.py` |
 | w/o Sliding Spotlight | `ablation_no_spotlight` | `AgentJury_ablation_no_spotlight` | `Automated_FA/Lib/alg_melting.py` |
 | Static Heuristic Experts | `ablation_static_experts` | `AgentJury_ablation_static_experts` | `Automated_FA/Lib/alg_melting.py` |
 | w/o Recursive Localization | `ablation_no_probe` | `AgentJury_ablation_no_probe` | `Automated_FA/Lib/alg_melting.py` |
@@ -190,6 +196,40 @@ python Automated_FA/inference.py \
 
 Run logs are written to `outputs/` by default.
 
+## Comparison Baselines
+
+The repository exposes the three comparison methods from Who&When. These formal
+baselines are GT-assisted: they include each sample's `ground_truth` field in the
+judge prompt, matching their original experimental setting.
+
+Run all three baselines on Algorithm-Generated traces:
+
+```bash
+for method in all_at_once step_by_step binary_search; do
+  python Automated_FA/inference.py \
+    --method "$method" \
+    --model ds-v3.2 \
+    --directory_path "data/Agents_Failure_Attribution/Who&When/Algorithm-Generated" \
+    --is_handcrafted False \
+    --max_tokens 1500
+done
+```
+
+Run all three baselines on Hand-Crafted traces:
+
+```bash
+for method in all_at_once step_by_step binary_search; do
+  python Automated_FA/inference.py \
+    --method "$method" \
+    --model ds-v3.2 \
+    --directory_path "data/Agents_Failure_Attribution/Who&When/Hand-Crafted" \
+    --is_handcrafted True \
+    --max_tokens 1500
+done
+```
+
+Each invocation writes a separate timestamped log under `outputs/`.
+
 ## Smoke Test
 
 The repository includes an offline end-to-end smoke test that reads the official
@@ -198,7 +238,7 @@ remote model responses. The test exercises dataset parsing, structured summaries
 dense voting, and final attribution output:
 
 ```bash
-python -m unittest -v tests.test_alg_nogt_smoke tests.test_hc_nogt_smoke
+python -m unittest -v tests.test_baseline_smoke tests.test_alg_nogt_smoke tests.test_hc_nogt_smoke
 ```
 
 For a live API run, set `SILICON_API_KEY` in `.env` and run the desired command above.
