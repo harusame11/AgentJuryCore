@@ -4,6 +4,23 @@ Official implementation of **AgentJury**, a multi-agent failure attribution fram
 
 AgentJury combines mixed-resolution probing, data-driven DAO-style expert arbitration, and top-k tolerant decoding. This release keeps the public inference pipeline and clustering utilities, while omitting evaluation scripts and retrieval-augmented components.
 
+## Codebase Description
+
+The repository is organized around two Who&When data regimes. Algorithm-generated
+traces use agent names and system-prompt dictionaries, while hand-crafted traces
+use composite role strings from Magnetic-One-style conversations. Both pipelines
+share the same four-stage design:
+
+1. compress long trajectory steps into structured summaries;
+2. locate suspicious regions with partitioned probes;
+3. expand high-resolution windows around the strongest candidates;
+4. aggregate three specialized DAO judges with dense soft voting.
+
+`Automated_FA/inference.py` is the only public command-line entry point. Core
+Algorithm-Generated logic lives in `Automated_FA/Lib/api_utils.py`; Hand-Crafted
+adaptation lives in `Automated_FA/Lib/api_utils_4_handcrafted.py`; controlled
+ablations live in `Automated_FA/Lib/alg_melting.py`.
+
 ## Overview
 
 Given a multi-agent trajectory, AgentJury predicts:
@@ -25,6 +42,18 @@ The public CLI exposes only the current paper methods:
 | `ablation_no_probe` | Algorithm-Generated | Removes recursive localization probe |
 
 Historical baselines and development variants remain in `Automated_FA/Lib/` for auditability, but they are not exposed as public CLI entry points.
+
+## Paper-to-Code Mapping
+
+| Paper experiment | CLI method | Python function | Source file |
+|---|---|---|---|
+| Algorithm-Generated main result | `agentjury_alg_enhance` | `AgentJury_alg_enhance` | `Automated_FA/Lib/api_utils.py` |
+| Algorithm-Generated noGT control | `agentjury_alg_enhance_nogt` | `AgentJury_alg_enhance_noGT` | `Automated_FA/Lib/api_utils.py` |
+| Hand-Crafted main result | `agentjury_hc_enhance` | `AgentJury_hc_enhance` | `Automated_FA/Lib/api_utils_4_handcrafted.py` |
+| Hand-Crafted noGT control | `agentjury_hc_enhance_nogt` | `AgentJury_hc_enhance_noGT` | `Automated_FA/Lib/api_utils_4_handcrafted.py` |
+| w/o Sliding Spotlight | `ablation_no_spotlight` | `AgentJury_ablation_no_spotlight` | `Automated_FA/Lib/alg_melting.py` |
+| Static Heuristic Experts | `ablation_static_experts` | `AgentJury_ablation_static_experts` | `Automated_FA/Lib/alg_melting.py` |
+| w/o Recursive Localization | `ablation_no_probe` | `AgentJury_ablation_no_probe` | `Automated_FA/Lib/alg_melting.py` |
 
 ## Repository Layout
 
@@ -76,15 +105,35 @@ The code uses model aliases defined in `Automated_FA/Lib/api_utils.py`:
 
 ## Data
 
+Who&When is released with the ICML 2025 Spotlight paper
+[Which Agent Causes Task Failures and When?](https://openreview.net/forum?id=GazlTYxZss).
+Clone the official benchmark repository:
+
+```bash
+git clone --depth 1 \
+  https://github.com/ag2ai/Agents_Failure_Attribution.git \
+  data/Agents_Failure_Attribution
+```
+
+The paths used by this repository are then:
+
+```text
+data/Agents_Failure_Attribution/Who&When/Algorithm-Generated
+data/Agents_Failure_Attribution/Who&When/Hand-Crafted
+```
+
+The official release contains 126 Algorithm-Generated and 58 Hand-Crafted JSON
+traces. The local `data/` directory is ignored by Git.
+
 Prepare datasets as JSON directories. The expected fields are:
 
-- Algorithm-Generated: `history`, `question`, `ground_truth`, `system_prompt`, `mistake_agent`, `mistake_step`, `mistake_reason`.
+- Algorithm-Generated: `history`, `question`, `system_prompt`, `mistake_agent`, `mistake_step`, `mistake_reason`; `ground_truth` is optional for `agentjury_alg_enhance_nogt`.
 - Hand-Crafted: `history`, `question`, `mistake_agent`, `mistake_step`, `mistake_reason`; `ground_truth` is optional for `agentjury_hc_enhance_nogt`.
 
 Example layout:
 
 ```text
-data/
+data/Agents_Failure_Attribution/Who&When/
 ├── Algorithm-Generated/
 │   ├── 1.json
 │   └── ...
@@ -103,7 +152,17 @@ Algorithm-Generated main method:
 python Automated_FA/inference.py \
   --method agentjury_alg_enhance \
   --model ds-v3.2 \
-  --directory_path data/Algorithm-Generated \
+  --directory_path "data/Agents_Failure_Attribution/Who&When/Algorithm-Generated" \
+  --max_tokens 1500
+```
+
+Algorithm-Generated no-ground-truth variant:
+
+```bash
+python Automated_FA/inference.py \
+  --method agentjury_alg_enhance_nogt \
+  --model ds-v3.2 \
+  --directory_path "data/Agents_Failure_Attribution/Who&When/Algorithm-Generated" \
   --max_tokens 1500
 ```
 
@@ -113,7 +172,7 @@ Hand-Crafted main method:
 python Automated_FA/inference.py \
   --method agentjury_hc_enhance \
   --model ds-v3.2 \
-  --directory_path data/Hand-Crafted \
+  --directory_path "data/Agents_Failure_Attribution/Who&When/Hand-Crafted" \
   --is_handcrafted True \
   --max_tokens 1500
 ```
@@ -124,12 +183,27 @@ Hand-Crafted no-ground-truth variant:
 python Automated_FA/inference.py \
   --method agentjury_hc_enhance_nogt \
   --model ds-v3.2 \
-  --directory_path data/Hand-Crafted \
+  --directory_path "data/Agents_Failure_Attribution/Who&When/Hand-Crafted" \
   --is_handcrafted True \
   --max_tokens 1500
 ```
 
 Run logs are written to `outputs/` by default.
+
+## Smoke Test
+
+The repository includes an offline end-to-end smoke test that reads the official
+`Algorithm-Generated/1.json` and `Hand-Crafted/1.json` traces and mocks only
+remote model responses. The test exercises dataset parsing, structured summaries, partitioned probes, DAO arbitration,
+dense voting, and final attribution output:
+
+```bash
+python -m unittest -v tests.test_alg_nogt_smoke tests.test_hc_nogt_smoke
+```
+
+For a live API run, set `SILICON_API_KEY` in `.env` and run the desired command above.
+The offline smoke test validates code integration without API cost; it does not
+measure model quality.
 
 ## Ablations
 

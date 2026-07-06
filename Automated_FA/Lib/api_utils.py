@@ -3428,7 +3428,6 @@ def AgentJury_alg_enhance_noGT(client, directory_path: str, model: str,
 
         history_raw  = data.get("history", [])
         problem      = data.get("question", "")
-        ground_truth = data.get("ground_truth", "")
 
         # ── Build normalized chat_history (skip CT, bundle execution output) ──────
         # history_index = raw position in history_raw → aligned with GT mistake_step
@@ -3748,7 +3747,7 @@ def AgentJury_alg_enhance_noGT(client, directory_path: str, model: str,
         base_context = (
             "[BACKGROUND] Post-mortem investigation of a FAILED multi-agent task. "
             "The agents below did NOT produce the correct final answer.\n\n"
-            f"General Task Origin: {problem}\nGround Truth Expected Outcome: {ground_truth}\n"
+            f"General Task Origin: {problem}\n"
             f"Active Agents in This Case:\n{roles_desc}\n"
             "SCOPE CONSTRAINT: Only evaluate agents listed above. "
             "Do NOT generate evaluations for any agent not present in the log.\n\n"
