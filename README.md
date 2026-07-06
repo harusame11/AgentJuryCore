@@ -2,7 +2,7 @@
 
 Official implementation of **AgentJury**, a multi-agent failure attribution framework for localizing the responsible agent and step in collaborative agent traces.
 
-AgentJury combines mixed-resolution probing, data-driven DAO-style expert arbitration, and top-k tolerant decoding. This release keeps the public inference pipeline and clustering utilities, while omitting evaluation scripts and retrieval-augmented components.
+AgentJury combines mixed-resolution probing, data-driven DAO-style expert arbitration, and top-k tolerant decoding. This release contains the public inference pipeline and clustering utilities.
 
 ## Codebase Description
 
@@ -249,7 +249,7 @@ python extract_of_error/plot_cluster_scatter.py \
 - API credentials are read from environment variables or CLI flags. No private keys are required in source files.
 - Dataset paths are always passed explicitly with `--directory_path`, `--alg_dir`, or `--hc_dir`.
 - Cached summaries and run outputs are written under `outputs/`.
-- This release does not include evaluation scripts or retrieval-augmented modules.
+- Evaluation scripts are not included in this release.
 
 ## Citation
 
